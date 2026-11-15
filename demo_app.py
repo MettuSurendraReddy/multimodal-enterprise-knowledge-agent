@@ -17,6 +17,7 @@ from answer_generation import load_chunks, retrieve_question_chunks, generate_an
 
 ROOT = Path(__file__).resolve().parent
 CHUNKS = load_chunks()
+OG_IMAGE_PATH = ROOT / "assets" / "linkedin-project-overview.png"
 
 HTML_PAGE = """<!doctype html>
 <html lang=\"en\">
@@ -24,6 +25,18 @@ HTML_PAGE = """<!doctype html>
   <meta charset=\"utf-8\" />
   <meta name=\"viewport\" content=\"width=device-width, initial-scale=1\" />
   <title>AI Governance RAG Demo</title>
+  <meta name=\"description\" content=\"A multimodal RAG demo that retrieves evidence from AI governance documents and generates cited answers.\" />
+  <meta property=\"og:type\" content=\"website\" />
+  <meta property=\"og:title\" content=\"AI Governance Knowledge Agent\" />
+  <meta property=\"og:description\" content=\"Explore a multimodal RAG project for retrieving evidence and generating cited answers from AI governance documents.\" />
+  <meta property=\"og:url\" content=\"https://multimodal-enterprise-knowledge-agent.onrender.com/\" />
+  <meta property=\"og:image\" content=\"https://multimodal-enterprise-knowledge-agent.onrender.com/og-image.png\" />
+  <meta property=\"og:image:secure_url\" content=\"https://multimodal-enterprise-knowledge-agent.onrender.com/og-image.png\" />
+  <meta property=\"og:image:type\" content=\"image/png\" />
+  <meta property=\"og:image:width\" content=\"1200\" />
+  <meta property=\"og:image:height\" content=\"1500\" />
+  <meta property=\"og:image:alt\" content=\"Infographic showing the AI Governance Knowledge Agent pipeline and benchmark results.\" />
+  <meta name=\"twitter:card\" content=\"summary_large_image\" />
   <style>
     :root {
       --bg: #f3f7ff;
@@ -245,6 +258,19 @@ def render_question_result(question: str):
 class DemoApp:
     def __call__(self, environ, start_response):
         method = environ.get("REQUEST_METHOD", "GET").upper()
+        request_path = urlparse(environ.get("PATH_INFO", "/")).path
+        if method in {"GET", "HEAD"} and request_path == "/og-image.png":
+            if not OG_IMAGE_PATH.is_file():
+                start_response("404 Not Found", [("Content-Type", "text/plain; charset=utf-8")])
+                return [b"Preview image not found."]
+            image = OG_IMAGE_PATH.read_bytes()
+            start_response("200 OK", [
+                ("Content-Type", "image/png"),
+                ("Content-Length", str(len(image))),
+                ("Cache-Control", "public, max-age=86400"),
+            ])
+            return [b"" if method == "HEAD" else image]
+
         if method == "POST":
             length = int(environ.get("CONTENT_LENGTH", "0") or 0)
             raw = environ["wsgi.input"].read(length)
@@ -271,10 +297,37 @@ app = DemoApp()
 
 class Handler(BaseHTTPRequestHandler):
     def do_GET(self):
+        if urlparse(self.path).path == "/og-image.png":
+            if not OG_IMAGE_PATH.is_file():
+                self.send_error(404, "Preview image not found")
+                return
+            image = OG_IMAGE_PATH.read_bytes()
+            self.send_response(200)
+            self.send_header("Content-Type", "image/png")
+            self.send_header("Content-Length", str(len(image)))
+            self.send_header("Cache-Control", "public, max-age=86400")
+            self.end_headers()
+            self.wfile.write(image)
+            return
         self.send_response(200)
         self.send_header("Content-type", "text/html; charset=utf-8")
         self.end_headers()
         self.wfile.write(HTML_PAGE.replace("{RESULT}", "").encode("utf-8"))
+
+    def do_HEAD(self):
+        if urlparse(self.path).path == "/og-image.png":
+            if not OG_IMAGE_PATH.is_file():
+                self.send_error(404, "Preview image not found")
+                return
+            self.send_response(200)
+            self.send_header("Content-Type", "image/png")
+            self.send_header("Content-Length", str(OG_IMAGE_PATH.stat().st_size))
+            self.send_header("Cache-Control", "public, max-age=86400")
+            self.end_headers()
+            return
+        self.send_response(200)
+        self.send_header("Content-Type", "text/html; charset=utf-8")
+        self.end_headers()
 
     def do_POST(self):
         length = int(self.headers.get("Content-Length", "0"))
