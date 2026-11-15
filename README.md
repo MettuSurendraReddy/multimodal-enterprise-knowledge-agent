@@ -82,3 +82,5 @@ This project is strong for a portfolio because it shows:
 - evidence-grounded generation with citations
 - benchmark-driven iteration instead of free-form prompting
 - careful handling of weak cases and explicit evaluation rules
+
+See [CASE_STUDY.md](CASE_STUDY.md) for a concise portfolio summary, results, and evaluation caveats.
