@@ -1,0 +1,22 @@
+{
+  "key": "48faec9e57c4801e0e36ef5fc9240719ab96cd427f604ea3c97503cce8ebd09b",
+  "name": "csf_p18",
+  "purpose": "production",
+  "file": "NIST.CSWP.29.pdf",
+  "pdf_sha256": "3c31f46fee98cac0c4323453e5109291a213b4de7fef8c058af9bf67f717433c",
+  "pdf_page": 18,
+  "dpi": 300,
+  "rotate_cw": 0,
+  "crop": null,
+  "prompt": "This image is a page that contains a figure or diagram. Ignore page headers, footers, page numbers and ordinary body-text paragraphs.\n1. Figure title: copy the figure's own title or caption line if one is shown (for example a line starting 'Figure' or 'Fig.'); otherwise write 'none'.\n2. Labels: list every text label that is inside the figure itself, copied exactly as written. Do not include the figure title here.\n3. Layout: describe the layout and which labels are grouped together, in 3 to 6 sentences.\n4. Flow: if the figure shows a clear overall direction of flow or sequence, describe it in at most 3 sentences, naming the labels it passes through in order. Do not list individual arrows and do not describe arrowheads you cannot clearly see. If the direction is not clear, write 'flow unclear'.\nIf a label or any character is unreadable, write [unreadable] instead of guessing. For codes and numbers, copy them character by character and add (uncertain) after any that is not perfectly clear. Do not add labels that are not visible.",
+  "model": "gemini-3.5-flash",
+  "pinned_model": "gemini-3.5-flash",
+  "used_fallback": false,
+  "finish_reason": "STOP",
+  "created": "2026-10-20T20:08:56+00:00",
+  "image_px": [
+    2550,
+    3300
+  ],
+  "text": "**Figure title:** \nFig. 6. Cybersecurity and privacy risk relationship\n\n**Labels:** \n- Cybersecurity Risks\n- associated with cybersecurity incidents arising from loss of confidentiality, integrity, or availability\n- cyber security-related privacy events\n- Privacy Risks\n- associated with privacy events arising from data processing\n\n**Layout:** \nThe figure is a Venn diagram composed of two overlapping circles representing two risk domains. The light blue circle on the left contains text defining cybersecurity risks, while the light purple circle on the right defines privacy risks. The central overlapping section contains text representing the intersection where privacy events are related to cybersecurity. \n\n**Flow:** \nflow unclear"
+}

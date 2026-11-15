@@ -1,0 +1,25 @@
+[
+  {
+    "id": "1",
+    "type": "lookup",
+    "question": "What are the four core functions of the AI RMF 1.0, and which one is cross-cutting?",
+    "answer": "The four core functions of the AI RMF are GOVERN, MAP, MEASURE, and MANAGE [rmf, PDF p25-26 (printed 20 - 21)]. Among these, GOVERN (Governance) is the cross-cutting function, designed to inform and be infused throughout the other three functions [rmf, PDF p25-26 (printed 20 - 21)].",
+    "citations": [
+      "rmf, PDF p25-26 (printed 20 - 21)"
+    ],
+    "unsupported": false,
+    "provider": "gemini"
+  },
+  {
+    "id": "2",
+    "type": "lookup",
+    "question": "Who is the Deploying AI Systems Securely guidance written for, and for whom is it not applicable?",
+    "answer": "The guidance is written for organizations deploying and operating AI systems that are externally developed (designed and developed by another entity) on premises or in private cloud environments, particularly those operating in high-threat, high-value environments. It is not applicable to organizations that do not deploy AI systems themselves and instead leverage AI systems deployed by others.",
+    "citations": [
+      "deploy, PDF p. 1",
+      "deploy, PDF p. 2"
+    ],
+    "unsupported": false,
+    "provider": "gemini"
+  }
+]

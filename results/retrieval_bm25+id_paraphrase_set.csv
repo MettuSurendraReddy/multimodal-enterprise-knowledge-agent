@@ -1,0 +1,13 @@
+id,type,figure_tag,retrieval_top5 (Y/N/n/a),gold_page_rank,first_hit_rank,evidence,top5_chunks
+101,lookup,,N,43,43,0.50,csf:n0028 (p16-16) | csf:ID.IM-03 (p24-24) | csf:ID.IM-01 (p24-24) | rmf:n0012 (p8-9) | csf:n0029 (p17-17)
+103,lookup,,Y,1,1,1.00,csf:n0012 (p8-9) | csf:n0006 (p5-6) | ssdf:n0022 (p15-16) | ssdf:n0019 (p13-14) | ssdf:n0012 (p9-10)
+104,lookup,,N,12,1,0.00,owasp:LLM08/description (p33-33) | owasp:LLM05/reference-links (p23-25) | owasp:LLM05/description (p23-23) | uk:n0146 (p87-87) | fig:owasp_p43#2 (p43-43)
+105,table,,N,15,15,1.00,rmf:n0020 (p12-12) | csf:n0012 (p8-9) | csf:n0029 (p17-17) | gai:GV-1.1-001 (p17-17) | csf:RS.CO-02 (p27-27)
+106,table,,Y,1,1,0.33,data:n0005 (p3-3) | rmf:n0070 (p44-44) | uk:n0105 (p67-67) | uk:n0062 (p40-41) | gai:n0020 (p9-9)
+107,table,,Y,2,2,1.00,ssdf:n0020 (p14-14) | ssdf:PO.2.1 (p17-17) | ssdf:n0023 (p16-16) | ssdf:PO.2.2 (p17-17) | ssdf:n0005 (p5-5)
+108,two_doc,,N,,1,0.67,gai:GV-1.1-001 (p17-17) | gai:MP-4.1-003 (p30-30) | gai:GV-1.6-001 (p20-20) | gai:MP-4.1-002 (p30-30) | gai:MP-4.1-007 (p30-30)
+109,two_doc,,N,23,3,0.50,rmf:n0070 (p44-44) | csf:n0001 (p1-2) | csf:n0012 (p8-9) | csf:n0007 (p6-6) | fig:csf_p8 (p8-8)
+112,figure,figure-only,Y,1,1,1.00,fig:csf_p15 (p15-15) | fig:csf_p13 (p13-13) | csf:n0025 (p15-15) | csf:GV.RR-01 (p22-22) | csf:n0040 (p31-31)
+115,figure,figure-only,Y,1,1,1.00,fig:uk_p17 (p17-17) | uk:n0004 (p5-6) | uk:n0076 (p50-50) | uk:n0001 (p1-3) | uk:n0090 (p58-58)
+117,lookup,,Y,1,1,1.00,eu:Article 4a#2 (p12-13) | eu:Article 4a (p12-12) | eu:Article 71#2 (p87-87) | uk:n0104 (p67-67) | uk:n0186 (p111-111)
+119,two_doc,,N,13,3,0.50,uk:n0148 (p88-89) | uk:n0154 (p92-92) | uk:n0155 (p93-93) | uk:n0157 (p94-95) | uk:n0134 (p82-82)

@@ -1,0 +1,13 @@
+id,type,figure_tag,retrieval_top5 (Y/N/n/a),gold_page_rank,first_hit_rank,evidence,top5_chunks
+101,lookup,,N,8,8,0.50,rmf:n0012 (p8-9) | rmf:n0026 (p14-14) | csf:n0033 (p19-19) | rmf:n0070 (p44-44) | rmf:n0001 (p1-3)
+103,lookup,,Y,2,2,1.00,csf:n0006 (p5-6) | csf:n0012 (p8-9) | csf:n0001 (p1-2) | csf:n0017 (p11-11) | csf:n0015 (p10-10)
+104,lookup,,Y,3,1,0.50,owasp:LLM08/description (p33-33) | fig:owasp_p43#2 (p43-43) | owasp:LLM08/example-attack-scenarios (p33-35) | owasp:LLM08/common-examples-of-risks (p33-33) | aml:n0184 (p73-73)
+105,table,,Y,1,1,1.00,rmf:n0050 (p27-27) | uk:n0164 (p99-99) | rmf:n0020 (p12-12) | uk:n0160 (p96-97) | gai:GV-1.1-001 (p17-17)
+106,table,,Y,1,1,0.67,data:n0005 (p3-3) | data:n0007 (p5-5) | rmf:n0054 (p30-33) | data:n0002 (p1-2) | uk:n0100 (p64-65)
+107,table,,N,6,6,0.50,ssdf:n0020 (p14-14) | ssdf:n0005 (p5-5) | ssdf:n0017 (p12-12) | gai:n0004 (p5-5) | ssdf:n0023 (p16-16)
+108,two_doc,,N,,1,0.67,gai:GV-1.1-001 (p17-17) | gai:MP-4.1-003 (p30-30) | gai:MP-4.1-007 (p30-30) | gai:MP-4.1-002 (p30-30) | gai:MP-4.1-010 (p31-31)
+109,two_doc,,Y,4,3,0.75,csf:n0001 (p1-2) | rmf:n0070 (p44-44) | csf:n0012 (p8-9) | rmf:n0047 (p25-26) | rmf:n0011 (p7-8)
+112,figure,figure-only,Y,1,1,1.00,fig:csf_p15 (p15-15) | fig:csf_p13 (p13-13) | csf:n0027 (p16-16) | csf:n0025 (p15-15) | csf:GV.RR-01 (p22-22)
+115,figure,figure-only,Y,1,1,1.00,fig:uk_p17 (p17-17) | uk:n0001 (p1-3) | uk:n0005 (p6-7) | uk:n0004 (p5-6) | uk:n0046 (p31-31)
+117,lookup,,Y,1,1,1.00,eu:Article 4a#2 (p12-13) | eu:Article 4a (p12-12) | data:n0029 (p15-16) | uk:n0111 (p70-71) | uk:n0080 (p52-52)
+119,two_doc,,N,19,4,0.50,uk:n0148 (p88-89) | uk:n0154 (p92-92) | uk:n0126 (p79-79) | uk:n0155 (p93-93) | uk:n0192 (p114-114)

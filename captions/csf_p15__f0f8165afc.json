@@ -1,0 +1,22 @@
+{
+  "key": "f0f8165afc1cde4ab6b35834ce243133e90327b6cc3566cc851a5a519a49d7fa",
+  "name": "csf_p15",
+  "purpose": "production",
+  "file": "NIST.CSWP.29.pdf",
+  "pdf_sha256": "3c31f46fee98cac0c4323453e5109291a213b4de7fef8c058af9bf67f717433c",
+  "pdf_page": 15,
+  "dpi": 300,
+  "rotate_cw": 0,
+  "crop": null,
+  "prompt": "This image is a page that contains a figure or diagram. Ignore page headers, footers, page numbers and ordinary body-text paragraphs.\n1. Figure title: copy the figure's own title or caption line if one is shown (for example a line starting 'Figure' or 'Fig.'); otherwise write 'none'.\n2. Labels: list every text label that is inside the figure itself, copied exactly as written. Do not include the figure title here.\n3. Layout: describe the layout and which labels are grouped together, in 3 to 6 sentences.\n4. Flow: if the figure shows a clear overall direction of flow or sequence, describe it in at most 3 sentences, naming the labels it passes through in order. Do not list individual arrows and do not describe arrowheads you cannot clearly see. If the direction is not clear, write 'flow unclear'.\nIf a label or any character is unreadable, write [unreadable] instead of guessing. For codes and numbers, copy them character by character and add (uncertain) after any that is not perfectly clear. Do not add labels that are not visible.",
+  "model": "gemini-3.5-flash",
+  "pinned_model": "gemini-3.5-flash",
+  "used_fallback": false,
+  "finish_reason": "STOP",
+  "created": "2026-10-15T16:15:21+00:00",
+  "image_px": [
+    2550,
+    3300
+  ],
+  "text": "1. **Figure title:** Fig. 5. Using the CSF to improve risk management communication\n\n2. **Labels:**\n   - Executives\n   - Managers\n   - Practitioners\n   - Mission Priority and Risk Appetite and Budget\n   - Framework Profiles\n   - Changes in Current and Future Risk\n   - Implementation Progress\n\n3. **Layout:** \n    The diagram is structured centrally around three organizational roles arranged vertically: \"Executives\" at the top, \"Managers\" in the middle, and \"Practitioners\" at the bottom. On the right side, information labels \"Mission Priority and Risk Appetite and Budget\" and \"Framework Profiles\" are placed alongside downward-pointing arrows. On the left side, communication feedback labels \"Changes in Current and Future Risk\" and \"Implementation Progress\" are positioned along upward-pointing arrows. Each role is accompanied by a representative visual icon depicting people or technical concepts.\n\n4. **Flow:** \n    The diagram shows a continuous bidirectional flow between the organizational levels. Strategic direction flows downward from Executives to Managers to Practitioners via \"Mission Priority and Risk Appetite and Budget\" and \"Framework Profiles.\" Operational feedback flows upward from Practitioners through Managers to Executives via \"Implementation Progress\" and \"Changes in Current and Future Risk.\""
+}

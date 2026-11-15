@@ -1,0 +1,22 @@
+{
+  "key": "04315335ef21728d114e786714f6174d16a55cc613c09dc5a5edf34434631e00",
+  "name": "aml_p49",
+  "purpose": "production",
+  "file": "NIST.AI.100-2e2025.pdf",
+  "pdf_sha256": "4811fb6ad73f9c9121843ab77e029b5adc6f2c86d33c2fc5b2099ef133847646",
+  "pdf_page": 49,
+  "dpi": 300,
+  "rotate_cw": 0,
+  "crop": null,
+  "prompt": "This image is a page that contains a figure or diagram. Ignore page headers, footers, page numbers and ordinary body-text paragraphs.\n1. Figure title: copy the figure's own title or caption line if one is shown (for example a line starting 'Figure' or 'Fig.'); otherwise write 'none'.\n2. Labels: list every text label that is inside the figure itself, copied exactly as written. Do not include the figure title here.\n3. Layout: describe the layout and which labels are grouped together, in 3 to 6 sentences.\n4. Flow: if the figure shows a clear overall direction of flow or sequence, describe it in at most 3 sentences, naming the labels it passes through in order. Do not list individual arrows and do not describe arrowheads you cannot clearly see. If the direction is not clear, write 'flow unclear'.\nIf a label or any character is unreadable, write [unreadable] instead of guessing. For codes and numbers, copy them character by character and add (uncertain) after any that is not perfectly clear. Do not add labels that are not visible.",
+  "model": "gemini-3.8-flash",
+  "pinned_model": "gemini-3.5-flash",
+  "used_fallback": true,
+  "finish_reason": "STOP",
+  "created": "2026-10-16T11:53:17+00:00",
+  "image_px": [
+    2550,
+    3300
+  ],
+  "text": "**Figure title:**\nFigure 3. Example LLM Training Pipeline used for InstructGPT [281]\n\n**Labels:**\n- Pre-Training\n- Supervised Fine-Tuning\n- Reward Modeling\n- Reinforcement Learning\n- Raw internet data low quality/ large quantity\n- Sets of ideal labeled assistant responses low quantity/high quality\n- Comparisons human written, low quantity/high quality\n- Human Prompts low quantity/ high quality\n- Language modeling predict the next token\n- Language modeling predict the next token\n- Binary Classification predict rewards according to preferences\n- Reinforcement Learning generate tokens that maximize the reward\n- Base Model\n- SFT Model\n- RM Model (not released)\n- RLHF Model\n\n**Layout:**\nThe diagram is organized into four vertical columns set inside light blue rounded rectangular panels arranged side-by-side from left to right. Each panel has a top-level stage header: \"Pre-Training\", \"Supervised Fine-Tuning\", \"Reward Modeling\", and \"Reinforcement Learning\". Within each column, three vertically stacked rounded blocks contain details: the top block describes the input data, the middle block describes the modeling/learning task, and the bottom colored block names the resulting model (Base Model, SFT Model, RM Model, and RLHF Model). Grey horizontal arrows link the columns between the top and middle tiers.\n\n**Flow:**\nThe pipeline follows a sequential left-to-right flow starting at Pre-Training, moving to Supervised Fine-Tuning, then to Reward Modeling, and concluding at Reinforcement Learning."
+}

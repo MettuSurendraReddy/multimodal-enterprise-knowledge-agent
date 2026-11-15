@@ -1,0 +1,22 @@
+{
+  "key": "fe4a771bf39d2b913b06e16d6c66dc500de8bf4616b7b0ea0e31c7de264ad92f",
+  "name": "aml_p50",
+  "purpose": "production",
+  "file": "NIST.AI.100-2e2025.pdf",
+  "pdf_sha256": "4811fb6ad73f9c9121843ab77e029b5adc6f2c86d33c2fc5b2099ef133847646",
+  "pdf_page": 50,
+  "dpi": 300,
+  "rotate_cw": 0,
+  "crop": null,
+  "prompt": "This image is a page that contains a figure or diagram. Ignore page headers, footers, page numbers and ordinary body-text paragraphs.\n1. Figure title: copy the figure's own title or caption line if one is shown (for example a line starting 'Figure' or 'Fig.'); otherwise write 'none'.\n2. Labels: list every text label that is inside the figure itself, copied exactly as written. Do not include the figure title here.\n3. Layout: describe the layout and which labels are grouped together, in 3 to 6 sentences.\n4. Flow: if the figure shows a clear overall direction of flow or sequence, describe it in at most 3 sentences, naming the labels it passes through in order. Do not list individual arrows and do not describe arrowheads you cannot clearly see. If the direction is not clear, write 'flow unclear'.\nIf a label or any character is unreadable, write [unreadable] instead of guessing. For codes and numbers, copy them character by character and add (uncertain) after any that is not perfectly clear. Do not add labels that are not visible.",
+  "model": "gemini-3.5-flash",
+  "pinned_model": "gemini-3.5-flash",
+  "used_fallback": false,
+  "finish_reason": "STOP",
+  "created": "2026-10-19T08:15:43+00:00",
+  "image_px": [
+    2550,
+    3300
+  ],
+  "text": "**Figure title:**\nFigure 4. LLM enterprise adoption pipeline\n\n**Labels:**\n- Scope\n- Define the problem\n- Select\n- Choose model\n- Adapt and Align Model\n- Prompt engineering\n- Fine-tuning\n- Align with human feedback\n- Evaluate\n- Application Integration\n- Optimize and deploy model for inference\n- Augment model & build LLM -powered apps\n\n**Layout:**\nThe figure consists of four chevron-shaped process blocks arranged horizontally side by side from left to right. The first block, titled \"Scope,\" contains \"Define the problem,\" followed by the \"Select\" block containing \"Choose model.\" The third block, \"Adapt and Align Model,\" lists \"Prompt engineering,\" \"Fine-tuning,\" and \"Align with human feedback,\" with a vertical bracket labeled \"Evaluate\" along its right border. The final block, \"Application Integration,\" is subdivided into \"Optimize and deploy model for inference\" on the left and \"Augment model & build LLM -powered apps\" on the right.\n\n**Flow:**\nThe process flows sequentially from left to right through four main phases: Scope, Select, Adapt and Align Model, and Application Integration."
+}

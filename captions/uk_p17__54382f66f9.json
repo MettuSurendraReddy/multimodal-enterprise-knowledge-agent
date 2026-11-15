@@ -1,0 +1,22 @@
+{
+  "key": "54382f66f95869272eb6572bf8d0b0267dc99f48693f08a4dcbd3375a9fae012",
+  "name": "uk_p17",
+  "purpose": "production",
+  "file": "AI_Playbook_for_the_UK_Government__12_02_.pdf",
+  "pdf_sha256": "3417156b104aa32ef795491739b7790eefe5e6f83f2f15a95e3872c4693cb5c0",
+  "pdf_page": 17,
+  "dpi": 300,
+  "rotate_cw": 0,
+  "crop": null,
+  "prompt": "This image is a page that contains a figure or diagram. Ignore page headers, footers, page numbers and ordinary body-text paragraphs.\n1. Figure title: copy the figure's own title or caption line if one is shown (for example a line starting 'Figure' or 'Fig.'); otherwise write 'none'.\n2. Labels: list every text label that is inside the figure itself, copied exactly as written. Do not include the figure title here.\n3. Layout: describe the layout and which labels are grouped together, in 3 to 6 sentences.\n4. Flow: if the figure shows a clear overall direction of flow or sequence, describe it in at most 3 sentences, naming the labels it passes through in order. Do not list individual arrows and do not describe arrowheads you cannot clearly see. If the direction is not clear, write 'flow unclear'.\nIf a label or any character is unreadable, write [unreadable] instead of guessing. For codes and numbers, copy them character by character and add (uncertain) after any that is not perfectly clear. Do not add labels that are not visible.",
+  "model": "gemini-3.5-flash",
+  "pinned_model": "gemini-3.5-flash",
+  "used_fallback": false,
+  "finish_reason": "STOP",
+  "created": "2026-10-15T16:15:50+00:00",
+  "image_px": [
+    2484,
+    3509
+  ],
+  "text": "1. **Figure title**: none\n\n2. **Labels**:\n   - Neural Networks\n   - Speech Recognition\n   - W2Vec\n   - Whisper\n   - CNN\n   - Computer Vision\n   - Generative AI\n   - Diffusion Models\n   - Neural Style Transfer\n   - Large Language Models\n   - Transformers\n   - Attention Mechanisms\n   - Machine Learning\n   - Deep Learning\n   - Foundation Models\n   - Natural Language Processing\n   - GRU\n   - NLU\n   - NLG\n   - RNN\n   - LSTM\n   - Deep Reinforcement\n   - Classifiers\n   - Recommender Systems\n   - Anomaly Detection\n   - Pattern Recognition\n   - Transparency\n   - Ethical AI\n   - Ethics and Societal Impact\n   - Fairness\n   - Privacy\n   - Legal\n   - Security\n\n3. **Layout**:\n   The figure is a complex network diagram displaying interconnected text nodes that represent various AI subfields, architectures, and ethical considerations. Major concept labels such as \"Machine Learning,\" \"Deep Learning,\" \"Generative AI,\" \"Foundation Models,\" \"Large Language Models,\" \"Natural Language Processing,\" and \"Ethics and Societal Impact\" are prominent in larger text sizes. Related technical models and sub-disciplines (e.g., CNN, W2Vec, Diffusion Models, Transformers, GRU, LSTM) radiate around these main topics, connected by multicolored solid and dashed lines. On the upper right, ethical, legal, and social factors (e.g., Transparency, Fairness, Privacy, Legal, Security) are grouped in blue text.\n\n4. **Flow**:\n   flow unclear"
+}

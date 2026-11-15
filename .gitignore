@@ -1,0 +1,48 @@
+# Secrets and local environment
+.env
+.env.*
+!.env.example
+*.key
+secrets/
+
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+env/
+.pytest_cache/
+.mypy_cache/
+
+# Node/build outputs
+node_modules/
+build/
+dist/
+coverage/
+
+# Generated or large local data
+embeddings/
+chroma_db/
+.chroma/
+cleaned/
+*.pdf
+
+# Local/editor/OS files
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+
+#word files 
+Multimodal Enterprise Knowledge Agent.docx
+
+
+captions/*.png
+check_*.py
+count_*.py
+inspect_ids.py
+list_*_models.py
+peek.py
+probe_models.py
+test_*.py
+hashes.txt

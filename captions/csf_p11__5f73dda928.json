@@ -1,0 +1,22 @@
+{
+  "key": "5f73dda928952aa44cc5af6fda9e8ed56626055ae32ee9bfeb023e19f7e706c5",
+  "name": "csf_p11",
+  "purpose": "production",
+  "file": "NIST.CSWP.29.pdf",
+  "pdf_sha256": "3c31f46fee98cac0c4323453e5109291a213b4de7fef8c058af9bf67f717433c",
+  "pdf_page": 11,
+  "dpi": 300,
+  "rotate_cw": 0,
+  "crop": null,
+  "prompt": "This image is a page that contains a figure or diagram. Ignore page headers, footers, page numbers and ordinary body-text paragraphs.\n1. Figure title: copy the figure's own title or caption line if one is shown (for example a line starting 'Figure' or 'Fig.'); otherwise write 'none'.\n2. Labels: list every text label that is inside the figure itself, copied exactly as written. Do not include the figure title here.\n3. Layout: describe the layout and which labels are grouped together, in 3 to 6 sentences.\n4. Flow: if the figure shows a clear overall direction of flow or sequence, describe it in at most 3 sentences, naming the labels it passes through in order. Do not list individual arrows and do not describe arrowheads you cannot clearly see. If the direction is not clear, write 'flow unclear'.\nIf a label or any character is unreadable, write [unreadable] instead of guessing. For codes and numbers, copy them character by character and add (uncertain) after any that is not perfectly clear. Do not add labels that are not visible.",
+  "model": "gemini-3.5-flash",
+  "pinned_model": "gemini-3.5-flash",
+  "used_fallback": false,
+  "finish_reason": "STOP",
+  "created": "2026-10-19T08:10:45+00:00",
+  "image_px": [
+    2550,
+    3300
+  ],
+  "text": "**1. Figure title:**\nFig. 3. Steps for creating and using a CSF Organizational Profile\n\n**2. Labels:**\n* NIST Cybersecurity Framework\n* GOVERN\n* IDENTIFY\n* PROTECT\n* DETECT\n* RESPOND\n* RECOVER\n* 1\n* Scope the Organizational Profile\n* 2\n* Gather needed information\n* 3\n* Create the Organizational Profile\n* 4\n* Analyze gaps and create an action plan\n* 5\n* Implement action plan and update Profile\n* Repeat...\n\n**3. Layout:**\nThe figure features a segmented circular wheel on the left and a vertical sequence of five numbered rectangular step boxes on the right. The wheel has a central white circle surrounded by six colored arc segments representing cybersecurity functions. On the right, each step consists of a dark blue circle with a step number (1 through 5) attached to a light blue horizontal bar with step description text. A blue arrow line runs down along the numbered steps on the left, turning around below Step 5 near the text \"Repeat...\" to indicate a continuous loop back to the beginning.\n\n**4. Flow:**\nThe process flows sequentially down from \"1 Scope the Organizational Profile\" through \"2 Gather needed information\", \"3 Create the Organizational Profile\", \"4 Analyze gaps and create an action plan\", to \"5 Implement action plan and update Profile\". From Step 5, the flow loops back at \"Repeat...\" to restart the continuous process."
+}

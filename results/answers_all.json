@@ -1,0 +1,242 @@
+[
+  {
+    "id": "1",
+    "type": "lookup",
+    "question": "What are the four core functions of the AI RMF 1.0, and which one is cross-cutting?",
+    "answer": "The four core functions of the AI RMF 1.0 are GOVERN, MAP, MEASURE, and MANAGE [rmf, PDF p25-26 (printed 20 - 21)]. Among these, GOVERN (Governance) is the cross-cutting function, designed to inform and be infused throughout the other three functions [rmf, PDF p25-26 (printed 20 - 21)].",
+    "citations": [
+      "rmf, PDF p25-26 (printed 20 - 21)"
+    ],
+    "unsupported": false,
+    "provider": "gemini"
+  },
+  {
+    "id": "2",
+    "type": "lookup",
+    "question": "Who is the Deploying AI Systems Securely guidance written for, and for whom is it not applicable?",
+    "answer": "The guidance is written for organizations deploying and operating AI systems designed and developed by another entity (externally developed) on premises or in private cloud environments, especially those in high-threat, high-value environments [deploy, PDF p. 1, PDF p. 2]. It is not applicable to organizations that are not deploying AI systems themselves and are instead leveraging AI systems deployed by others [deploy, PDF p. 2].",
+    "citations": [
+      "deploy, PDF p. 1",
+      "deploy, PDF p. 2"
+    ],
+    "unsupported": false,
+    "provider": "gemini"
+  },
+  {
+    "id": "3",
+    "type": "lookup",
+    "question": "What outcome statement does CSF 2.0 give for the GOVERN function?",
+    "answer": "For the GOVERN (GV) function, CSF 2.0 states the outcome as: \"The organization’s cybersecurity risk management strategy, expectations, and policy are established, communicated, and monitored.\" [csf, PDF p. 8-9]",
+    "citations": [
+      "csf, PDF p. 8-9"
+    ],
+    "unsupported": false,
+    "provider": "gemini"
+  },
+  {
+    "id": "4",
+    "type": "lookup",
+    "question": "What risks does OWASP LLM08 (Vector and Embedding Weaknesses) list, and what mitigations does it suggest?",
+    "answer": "Under OWASP LLM08 (Vector and Embedding Weaknesses), the listed risks and suggested mitigations are:\n\n**Risks:**\n- **Unauthorized Access & Data Leakage:** Inadequate or misaligned access controls can allow unauthorized access to embeddings with sensitive information, leading to the disclosure of personal data, proprietary information, or legal repercussions from non-compliance or unauthorized copyrighted material use [owasp, PDF p. 33].\n- **Cross-Context Information Leaks and Federation Knowledge Conflict:** In multi-tenant environments sharing a vector database, context can leak between users or queries. Knowledge conflicts can occur when data sources contradict each other or when an LLM fails to supersede pre-trained knowledge with new RAG data [owasp, PDF p. 33].\n- **Embedding Inversion Attacks:** Attackers can invert embeddings to reconstruct significant amounts of source information, compromising confidentiality [owasp, PDF p. 33].\n- **Data Poisoning Attacks:** Intentional or unintentional data poisoning (via insiders, prompts, data seeding, or unverified providers) can manipulate model outputs, such as using hidden text in input documents to inject malicious instructions [owasp, PDF p. 33-34].\n- **Behavior Alteration:** Retrieval augmentation can inadvertently alter the foundation model's behavior, potentially diminishing qualities such as emotional intelligence or empathy while increasing factual accuracy [owasp, PDF p. 34, PDF p. 35].\n\n**Mitigations:**\n- **Permission and Access Control:** Implement fine-grained access controls and permission-aware vector and embedding stores, including strict logical and access partitioning of datasets in the vector database [owasp, PDF p. 33-34, PDF p. 35].\n- **Data Validation & Source Authentication:** Establish robust data validation pipelines, validate all documents before addition to the knowledge base, audit the knowledge base for hidden codes and poisoning, accept data only from trusted and verified sources, and use text extraction tools that ignore formatting and detect hidden content [owasp, PDF p. 33-34, PDF p. 35].\n- **Data Review for Combination & Classification:** Thoroughly review combined datasets from different sources, and tag and classify knowledge base data to manage access levels and prevent mismatch errors [owasp, PDF p. 33-34].\n- **Monitoring and Logging:** Maintain detailed immutable logs of retrieval activities to quickly detect and respond to suspicious actions [owasp, PDF p. 33-34].\n- **Behavior Monitoring and Adjustment:** Continuously monitor and evaluate the impact of RAG on the foundational model's behavior, making adjustments to the augmentation process to preserve desired qualities like empathy [owasp, PDF p. 35].",
+    "citations": [
+      "owasp, PDF p. 33",
+      "owasp, PDF p. 33-34",
+      "owasp, PDF p. 34",
+      "owasp, PDF p. 35"
+    ],
+    "unsupported": false,
+    "provider": "gemini"
+  },
+  {
+    "id": "5",
+    "type": "table",
+    "question": "What does GOVERN 1.1 ask organizations to do?",
+    "answer": "Under GOVERN 1.1, organizations are asked to ensure that legal and regulatory requirements involving AI are understood, managed, and documented [rmf, PDF p. 27] [gai, PDF p. 17]. Additionally, in the context of generative AI, this includes aligning GAI development and use with applicable laws and regulations, such as those related to data privacy, copyright, and intellectual property law [gai, PDF p. 17].",
+    "citations": [
+      "rmf, PDF p. 27",
+      "gai, PDF p. 17"
+    ],
+    "unsupported": false,
+    "provider": "gemini"
+  },
+  {
+    "id": "6",
+    "type": "table",
+    "question": "In Table 1 of AI Data Security, what are the key dimension, the potential focus areas for data security, and the data security risk covered for the first lifecycle stage?",
+    "answer": "In Table 1 of AI Data Security, for the first lifecycle stage (1. Plan & Design):\n- Key dimension: Application Context [data, PDF p. 3]\n- Potential focus areas for data security: Incorporating data security measures from inception, designing robust security protocols, threat modeling, and including privacy by design [data, PDF p. 3-5]\n- Particular data security risks covered: Data supply chain [data, PDF p. 3-5]",
+    "citations": [
+      "data, PDF p. 3",
+      "data, PDF p. 3-5"
+    ],
+    "unsupported": false,
+    "provider": "gemini"
+  },
+  {
+    "id": "7",
+    "type": "table",
+    "question": "For task PO.2.1 in Table 1 of SP 800-218A, what priority is given and which AI RMF subcategory is referenced?",
+    "answer": "Priority High; AI RMF Govern 2.1.",
+    "citations": [
+      "ssdf:PO.2.1, PDF p17-17",
+      "rmf:GOVERN 2.1, PDF p28-28"
+    ],
+    "unsupported": false,
+    "provider": "rule-based-fallback"
+  },
+  {
+    "id": "8",
+    "type": "two_doc",
+    "question": "How does GOVERN 1.1 in AI 100-1 relate to GV-1.1-001 in AI 600-1, and what does AI 600-1 attach to that action?",
+    "answer": "GV-1.1-001 is a suggested action under GOVERN 1.1. The action aligns GAI development and use with applicable laws and regulations, including data privacy, copyright, and intellectual property law. AI 600-1 attaches risk tags Data Privacy, Harmful Bias and Homogenization, and Intellectual Property, plus the AI actor task Governance and Oversight.",
+    "citations": [
+      "rmf:GOVERN 1.1, PDF p27-27",
+      "gai:GV-1.1-001, PDF p17-17",
+      "gai:n0041, PDF p16-17"
+    ],
+    "unsupported": false,
+    "provider": "rule-based-fallback"
+  },
+  {
+    "id": "9",
+    "type": "two_doc",
+    "question": "How many functions does each of the AI RMF 1.0 and CSF 2.0 have, and how does each describe GOVERN's relationship to the others?",
+    "answer": "AI RMF 1.0 has 4 functions: GOVERN, MAP, MEASURE, and MANAGE; GOVERN is cross-cutting and infused throughout the others. CSF 2.0 has 6 functions: GOVERN, IDENTIFY, PROTECT, DETECT, RESPOND, and RECOVER; GOVERN informs how the other five are implemented.",
+    "citations": [
+      "rmf:n0047, PDF p25-25",
+      "csf:n0015, PDF p10-10",
+      "csf:n0014, PDF p9-9"
+    ],
+    "unsupported": false,
+    "provider": "rule-based-fallback"
+  },
+  {
+    "id": "10",
+    "type": "trap",
+    "question": "Which GPU models do these documents recommend for hosting AI systems securely?",
+    "answer": "The documents do not recommend any specific GPU models for hosting AI systems securely.",
+    "citations": [
+      "uk:n0128, PDF p79-80",
+      "owasp:LLM03/prevention-and-mitigation-strategies#6, PDF p18-19"
+    ],
+    "unsupported": false,
+    "provider": "groq"
+  },
+  {
+    "id": "11",
+    "type": "figure",
+    "question": "Which characteristics does Figure 4 of the AI RMF stack on the Valid & Reliable base?",
+    "answer": "Figure 4 stacks the following five characteristics on top of the Valid & Reliable base: Safe; Secure & Resilient; Explainable & Interpretable; Privacy‑Enhanced; and Fair – With Harmful Bias Managed.",
+    "citations": [
+      "[fig:rmf_p17, PDF p17]",
+      "[rmf:n0030, PDF p17]"
+    ],
+    "unsupported": false,
+    "provider": "groq"
+  },
+  {
+    "id": "12",
+    "type": "figure",
+    "question": "CSF 2.0's Figure 5 (\"Using the CSF to improve risk management communication\") shows executives, managers, and practitioners exchanging information. What four labelled items does it show?",
+    "answer": "The figure labels the following four items: \"Mission Priority and Risk Appetite and Budget\", \"Framework Profiles\", \"Changes in Current and Future Risk\", and \"Implementation Progress\".",
+    "citations": [
+      "csf, PDF p15-15"
+    ],
+    "unsupported": false,
+    "provider": "groq"
+  },
+  {
+    "id": "13",
+    "type": "figure",
+    "question": "In Figure 6 of AI 100-2 (retrieval-augmented generation), what is the user's second question, and what role label is attached to the retrieved documents doc1 and doc2?",
+    "answer": "The second user question is 'What was their operating cash flow?'. The retrieved documents doc1 and doc2 are labeled Assistant.",
+    "citations": [
+      "fig:aml_p52, PDF p52-52",
+      "aml:n0130, PDF p52-52"
+    ],
+    "unsupported": false,
+    "provider": "rule-based-fallback"
+  },
+  {
+    "id": "14",
+    "type": "figure",
+    "question": "In Appendix 1 of the OWASP 2025 list, what does \"TB\" stand for, and which risk label is attached to the \"Grounding/URL Scraping\" callout?",
+    "answer": "In Appendix 1 of the OWASP 2025 list, \"TB\" stands for Trust Boundary, and the risk label attached to the \"Grounding/URL Scraping\" callout is LLM08.",
+    "citations": [
+      "fig:owasp_p43#2, PDF p43-43",
+      "fig:owasp_p43#2, PDF p43-43"
+    ],
+    "unsupported": false,
+    "provider": "groq"
+  },
+  {
+    "id": "15",
+    "type": "figure",
+    "question": "In the Fields of AI diagram (UK AI Playbook, p. 17), which labels are grouped with \"Ethics and Societal Impact\" in the top-right cluster?",
+    "answer": "The labels grouped with 'Ethics and Societal Impact' in the top-right cluster are Transparency, Ethical AI, Fairness, Privacy, Legal, and Security.",
+    "citations": [
+      "fig:uk_p17, PDF p17-17",
+      "uk:n0090, PDF p58-58"
+    ],
+    "unsupported": false,
+    "provider": "rule-based-fallback"
+  },
+  {
+    "id": "16",
+    "type": "table",
+    "question": "In the table of example applications of AI and generative AI in government (section \"Applications of AI in government\", p. 24), what can generative AI do for \"Reduce staff workload\"?",
+    "answer": "Generative AI can suggest first drafts of routine email responses or computer code, acting as an autocomplete tool for algorithms.",
+    "citations": [
+      "uk:n0036, PDF p24-25"
+    ],
+    "unsupported": false,
+    "provider": "groq"
+  },
+  {
+    "id": "17",
+    "type": "lookup",
+    "question": "What does Article 4a allow providers of high-risk AI systems to do, and for what purpose?",
+    "answer": "Article 4a allows providers of high‑risk AI systems to exceptionally process special categories of personal data, but only to the extent that it is strictly necessary to detect and correct biases that could affect the health and safety of persons, have a negative impact on fundamental rights or lead to discrimination prohibited by Union law.",
+    "citations": [
+      "eu:Article 4a, PDF p12-12",
+      "eu:Article 4a#2, PDF p12-13"
+    ],
+    "unsupported": false,
+    "provider": "groq"
+  },
+  {
+    "id": "18",
+    "type": "two_doc",
+    "question": "Which AI RMF subcategory does PO.2.1 cite, and what does that subcategory require?",
+    "answer": "PO.2.1 cites Govern 2.1. That subcategory requires roles, responsibilities, and lines of communication for mapping, measuring, and managing AI risks to be documented and clear to individuals and teams across the organization.",
+    "citations": [
+      "ssdf:PO.2.1, PDF p17-17",
+      "rmf:GOVERN 2.1, PDF p28-28"
+    ],
+    "unsupported": false,
+    "provider": "rule-based-fallback"
+  },
+  {
+    "id": "19",
+    "type": "two_doc",
+    "question": "The UK Playbook's scenario about an AI search tool summarising emails names an attack and a risk rating. What are they, and how does OWASP LLM01 define that attack type?",
+    "answer": "The scenario names an indirect prompt injection attack, with Likelihood LOW and Impact HIGH. OWASP LLM01 defines this as an attack where an LLM accepts input from external sources such as websites or files.",
+    "citations": [
+      "uk:n0154, PDF p92-93",
+      "owasp:LLM01/example-attack-scenarios, PDF p7-9"
+    ],
+    "unsupported": false,
+    "provider": "rule-based-fallback"
+  },
+  {
+    "id": "20",
+    "type": "trap",
+    "question": "What numeric risk tolerance threshold does the AI RMF prescribe?",
+    "answer": "The AI RMF does not prescribe a numeric risk tolerance threshold.",
+    "citations": [
+      "rmf:n0019, PDF p11-12",
+      "rmf:n0020, PDF p12-12"
+    ],
+    "unsupported": false,
+    "provider": "groq"
+  }
+]

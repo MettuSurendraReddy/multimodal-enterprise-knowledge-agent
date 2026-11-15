@@ -1,0 +1,22 @@
+{
+  "key": "0586ea1a677ed4b67830e53aae6ec08ba018a1e6732bdadc6e3cfc42aad006c3",
+  "name": "rmf_p10",
+  "purpose": "production",
+  "file": "NIST.AI.100-1.pdf",
+  "pdf_sha256": "7576edb531d9848825814ee88e28b1795d3a84b435b4b797d3670eafdc4a89f1",
+  "pdf_page": 10,
+  "dpi": 300,
+  "rotate_cw": 0,
+  "crop": null,
+  "prompt": "This image is a page that contains a figure or diagram. Ignore page headers, footers, page numbers and ordinary body-text paragraphs.\n1. Figure title: copy the figure's own title or caption line if one is shown (for example a line starting 'Figure' or 'Fig.'); otherwise write 'none'.\n2. Labels: list every text label that is inside the figure itself, copied exactly as written. Do not include the figure title here.\n3. Layout: describe the layout and which labels are grouped together, in 3 to 6 sentences.\n4. Flow: if the figure shows a clear overall direction of flow or sequence, describe it in at most 3 sentences, naming the labels it passes through in order. Do not list individual arrows and do not describe arrowheads you cannot clearly see. If the direction is not clear, write 'flow unclear'.\nIf a label or any character is unreadable, write [unreadable] instead of guessing. For codes and numbers, copy them character by character and add (uncertain) after any that is not perfectly clear. Do not add labels that are not visible.",
+  "model": "gemini-3.5-flash",
+  "pinned_model": "gemini-3.5-flash",
+  "used_fallback": false,
+  "finish_reason": "STOP",
+  "created": "2026-10-19T08:25:33+00:00",
+  "image_px": [
+    2550,
+    3300
+  ],
+  "text": "**1. Figure title:**\nFig. 1. Examples of potential harms related to AI systems. Trustworthy AI systems and their responsible use can mitigate negative risks and contribute to benefits for people, organizations, and ecosystems.\n\n**2. Labels:**\n* Harm to People\n* Individual: Harm to a person's civil liberties, rights, physical or psychological safety, or economic opportunity.\n* Group/Community: Harm to a group such as discrimination against a population sub-group.\n* Societal: Harm to democratic participation or educational access.\n* Harm to an Organization\n* Harm to an organization's business operations.\n* Harm to an organization from security breaches or monetary loss.\n* Harm to an organization's reputation.\n* Harm to an Ecosystem\n* Harm to interconnected and interdependent elements and resources.\n* Harm to the global financial system, supply chain, or interrelated systems.\n* Harm to natural resources, the environment, and planet.\n\n**3. Layout:**\nThe figure is arranged into three vertical rectangular cards placed side by side. Each card has a dark blue header containing a major category name: \"Harm to People\", \"Harm to an Organization\", and \"Harm to an Ecosystem\". Inside the light gray box beneath each header, three bulleted sub-points describe specific examples of harm related to that category. Thin yellow horizontal line segments connect the three cards across the center.\n\n**4. Flow:**\nflow unclear"
+}

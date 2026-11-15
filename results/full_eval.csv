@@ -1,0 +1,21 @@
+id,type,tag,retrieval,retrieval_rank,correctness,faithfulness,notes
+1,lookup,,Y,1,Y,Y,Correct: four functions and GOVERN cross-cutting.
+2,lookup,,Y,2,Y,Y,Correct audience and non-applicability.
+3,lookup,,Y,2,Y,Y,Correct GOVERN outcome statement.
+4,lookup,,Y,1,Y,Y,Correct risk list and mitigations.
+5,table,,Y,1,Y,Y,Correct meaning of GOVERN 1.1.
+6,table,,Y,1,Y,Y,"Correct key dimension, focus areas, and risk."
+7,table,,Y,1,Y,Y,Correct: priority is High and the referenced subcategory is Govern 2.1.
+8,two_doc,,Y,2,Y,Y,Correct: GV-1.1-001 is the suggested action under GOVERN 1.1 with the attached risk tags and Governance and Oversight actor task.
+9,two_doc,,N,17,Y,Y,Correct: AI RMF has 4 functions and CSF has 6; GOVERN is cross-cutting or informs the others respectively.
+10,trap,,n/a,,Y,Y,Correct: no specific GPU model recommended.
+11,figure,also-in-text,Y,1,Y,Y,Correct: the base is Valid & Reliable with the five stacked items.
+12,figure,figure-only,Y,1,Y,Y,Correct: four labels as shown in the figure.
+13,figure,also-in-text,Y,1,Y,Y,Correct: the second prompt is 'What was their operating cash flow?' and the role label is Assistant.
+14,figure,figure-only,Y,1,Y,Y,Correct: TB = Trust Boundary; risk label is LLM08.
+15,figure,figure-only,Y,1,Y,Y,"Correct: the cluster includes Ethical AI, Transparency, Fairness, Privacy, Legal, and Security."
+16,table,also-in-text,Y,1,Y,Y,Correct: first drafts of routine email responses and code.
+17,lookup,,Y,1,Y,Y,"Correct: processing special categories of personal data for bias detection/correction, subject to safeguards."
+18,two_doc,,Y,3,Y,Y,"Correct: PO.2.1 cites Govern 2.1 and that subcategory requires documented, clear roles and responsibilities across the organization."
+19,two_doc,,Y,4,Y,Y,"Correct: indirect prompt injection, likelihood LOW, impact HIGH; OWASP defines it as input from external sources such as websites or files."
+20,trap,,Y,1,Y,Y,Correct: no numeric ratio or prescribed threshold.

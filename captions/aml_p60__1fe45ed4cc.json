@@ -1,0 +1,22 @@
+{
+  "key": "1fe45ed4cc20f69a938347d53624850b7620cd9d64979d7eed039ef7b182a61a",
+  "name": "aml_p60",
+  "purpose": "production",
+  "file": "NIST.AI.100-2e2025.pdf",
+  "pdf_sha256": "4811fb6ad73f9c9121843ab77e029b5adc6f2c86d33c2fc5b2099ef133847646",
+  "pdf_page": 60,
+  "dpi": 300,
+  "rotate_cw": 0,
+  "crop": null,
+  "prompt": "This image is a page that contains a figure or diagram. Ignore page headers, footers, page numbers and ordinary body-text paragraphs.\n1. Figure title: copy the figure's own title or caption line if one is shown (for example a line starting 'Figure' or 'Fig.'); otherwise write 'none'.\n2. Labels: list every text label that is inside the figure itself, copied exactly as written. Do not include the figure title here.\n3. Layout: describe the layout and which labels are grouped together, in 3 to 6 sentences.\n4. Flow: if the figure shows a clear overall direction of flow or sequence, describe it in at most 3 sentences, naming the labels it passes through in order. Do not list individual arrows and do not describe arrowheads you cannot clearly see. If the direction is not clear, write 'flow unclear'.\nIf a label or any character is unreadable, write [unreadable] instead of guessing. For codes and numbers, copy them character by character and add (uncertain) after any that is not perfectly clear. Do not add labels that are not visible.",
+  "model": "gemini-3.5-flash",
+  "pinned_model": "gemini-3.5-flash",
+  "used_fallback": false,
+  "finish_reason": "STOP",
+  "created": "2026-10-19T08:16:17+00:00",
+  "image_px": [
+    2550,
+    3300
+  ],
+  "text": "**Figure title:**\nFigure 7. Map of the development and deployment life cycle of an AI model for broad-scale query access\n\n**Labels:**\n* 1 Before Training\n* 2 Pre-Training\n* 3 Post-Training\n* 4 Evaluation\n* 5 Broad Query Access\n* 6 Monitoring & Reporting\n* 7 Capability Improvements\n* Setup Infrastructure\n* Collect Data\n* Process Data\n* Predictive Evaluations\n* Exposure\n* Fine-Tuning\n* Tool Use\n* Editing\n* Unlearning\n* ...\n* Checkpoint Evaluations\n* Internal Deployment\n* Iteration\n* Capabilities Eval.\n* Safeguards Eval.\n* Interpretability\n* Access Control\n* User <> AI\n* AI <> World\n* API Security\n* Input/Output Modification\n* Constraints\n* Tools\n* Data\n* Safety Improvements\n* Continuous Evaluation\n\n**Layout:**\nThe diagram is organized into structured rectangular stages with numbered blue circular header icons outlining the model life cycle. The top row features four sequential primary phases: \"1 Before Training\", \"2 Pre-Training\", \"3 Post-Training\" (paired with \"7 Capability Improvements\"), and \"4 Evaluation\". The bottom row features two operational phases: \"5 Broad Query Access\" on the left, showing internal components like access control, API security, and tools, and \"6 Monitoring & Reporting\" on the right. Connecting feedback lines and arrows run beneath and between the boxes to represent various evaluations, internal deployment routes, iteration loops, and safety improvements.\n\n**Flow:**\n networks flow horizontally across the top from \"1 Before Training\" through \"2 Pre-Training\" and \"3 Post-Training\" to \"4 Evaluation\". From evaluation and pre/post-training stages, paths transition downwards to \"5 Broad Query Access\" and \"6 Monitoring & Reporting\". Feedback pathways direct outputs like \"Iteration\", \"Safety Improvements\", and \"Access Control\" back into earlier development stages."
+}

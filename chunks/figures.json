@@ -1,0 +1,523 @@
+{
+  "doc": "figures",
+  "title": "figure captions",
+  "created": "2026-11-03T15:14:15+00:00",
+  "params": {
+    "max_words": 220
+  },
+  "chunks": [
+    {
+      "id": "fig:aml_p17",
+      "doc": "aml",
+      "title": "NIST AI 100-2 E2025 (Adversarial Machine Learning)",
+      "kind": "figure",
+      "section": "figure, PDF page 17",
+      "text": "1. Figure title:\nFigure 1. Taxonomy of attacks on PredAI systems\n2. Labels:\n- Model Poisoning\n- Model Control\n- Availability\n- Label Limit\n- Clean-Label Poisoning\n- Training Data Control\n- Data Poisoning\n- Query Access\n- Energy Latency\n- Clean-Label Backdoor\n- Backdoor Poisoning\n- Evasion\n- Targeted Poisoning\n- Black-Box Evasion\n- Integrity\n- Source Code Control\n- Test Data Control\n- Model Extraction\n- Model\n- Privacy\n- Data\n- Reconstruction; Membership Inference; Property Inference\n3. Layout:\nThe figure consists of three separate concentric circular diagrams, each representing an attacker objective at its center: \"Availability\" (top right), \"Integrity\" (middle left), and \"Privacy\" (bottom right). Each inner core circle is surrounded by an outer segmented ring containing required adversary capabilities (such as \"Model Control\", \"Query Access\", \"Training Data Control\", \"Label Limit\", \"Source Code Control\", and \"Test Data Control\"). Pointer lines extend outwards from these capability segments to external callout labels indicating specific attack classes (such as \"Model Poisoning\", \"Data Poisoning\", \"Evasion\", and \"Model Extraction\"). The \"Privacy\" circle is split horizontally into \"Model\" and \"Data\" regions, each flanked by a \"Query Access\" capability segment with respective attack types called out above and below.\n4. Flow:\nflow unclear",
+      "embed_text": "NIST AI 100-2 E2025 (Adversarial Machine Learning), figure on PDF page 17\n1. Figure title:\nFigure 1. Taxonomy of attacks on PredAI systems\n2. Labels:\n- Model Poisoning\n- Model Control\n- Availability\n- Label Limit\n- Clean-Label Poisoning\n- Training Data Control\n- Data Poisoning\n- Query Access\n- Energy Latency\n- Clean-Label Backdoor\n- Backdoor Poisoning\n- Evasion\n- Targeted Poisoning\n- Black-Box Evasion\n- Integrity\n- Source Code Control\n- Test Data Control\n- Model Extraction\n- Model\n- Privacy\n- Data\n- Reconstruction; Membership Inference; Property Inference\n3. Layout:\nThe figure consists of three separate concentric circular diagrams, each representing an attacker objective at its center: \"Availability\" (top right), \"Integrity\" (middle left), and \"Privacy\" (bottom right). Each inner core circle is surrounded by an outer segmented ring containing required adversary capabilities (such as \"Model Control\", \"Query Access\", \"Training Data Control\", \"Label Limit\", \"Source Code Control\", and \"Test Data Control\"). Pointer lines extend outwards from these capability segments to external callout labels indicating specific attack classes (such as \"Model Poisoning\", \"Data Poisoning\", \"Evasion\", and \"Model Extraction\"). The \"Privacy\" circle is split horizontally into \"Model\" and \"Data\" regions, each flanked by a \"Query Access\" capability segment with respective attack types called out above and below.\n4. Flow:\nflow unclear",
+      "words": 199,
+      "meta": {
+        "figure": "aml_p17",
+        "model": "gemini-3.8-flash",
+        "used_fallback": true
+      },
+      "pdf_start": 17,
+      "pdf_end": 17,
+      "printed_start": "4",
+      "printed_end": "4"
+    },
+    {
+      "id": "fig:aml_p48",
+      "doc": "aml",
+      "title": "NIST AI 100-2 E2025 (Adversarial Machine Learning)",
+      "kind": "figure",
+      "section": "figure, PDF page 48",
+      "text": "Figure title:\nFigure 2. Taxonomy of attacks on GenAI systems\nLabels:\n- Availability\n- Integrity\n- Misuse\n- Privacy\n- Model\n- Data\n- Query Access\n- Resource Control\n- Training Data Control\n- Model Control\n- Direct Prompting Attack\n- Increased Computation\n- Indirect Prompt Injection\n- Data Poisoning\n- Targeted Poisoning\n- Backdoor Poisoning\n- Model Poisoning\n- Jailbreaking\n- Fine-tuning Circumvention\n- Prompt Extraction\n- Model Extraction\n- Training Data Extraction\n- Leaking Data from User Interaction\nLayout:\nThe figure is arranged into four circular diagrams representing primary security objectives or categories: \"Availability\" at the top, \"Integrity\" at the middle-left, \"Misuse\" at the middle-right, and \"Privacy\" at the bottom. Each central circle displays its target objective in a colored hub, surrounded by segmented grey rings representing access or control types such as \"Query Access\", \"Resource Control\", \"Training Data Control\", and \"Model Control\". Extending outwards via solid connecting lines are specific attack vectors and sub-techniques associated with each control type. The bottom \"Privacy\" diagram is subdivided internally into \"Model\" and \"Data\" aspects, each with their own corresponding control quadrants and associated attack methods.\nFlow:\nflow unclear",
+      "embed_text": "NIST AI 100-2 E2025 (Adversarial Machine Learning), figure on PDF page 48\nFigure title:\nFigure 2. Taxonomy of attacks on GenAI systems\nLabels:\n- Availability\n- Integrity\n- Misuse\n- Privacy\n- Model\n- Data\n- Query Access\n- Resource Control\n- Training Data Control\n- Model Control\n- Direct Prompting Attack\n- Increased Computation\n- Indirect Prompt Injection\n- Data Poisoning\n- Targeted Poisoning\n- Backdoor Poisoning\n- Model Poisoning\n- Jailbreaking\n- Fine-tuning Circumvention\n- Prompt Extraction\n- Model Extraction\n- Training Data Extraction\n- Leaking Data from User Interaction\nLayout:\nThe figure is arranged into four circular diagrams representing primary security objectives or categories: \"Availability\" at the top, \"Integrity\" at the middle-left, \"Misuse\" at the middle-right, and \"Privacy\" at the bottom. Each central circle displays its target objective in a colored hub, surrounded by segmented grey rings representing access or control types such as \"Query Access\", \"Resource Control\", \"Training Data Control\", and \"Model Control\". Extending outwards via solid connecting lines are specific attack vectors and sub-techniques associated with each control type. The bottom \"Privacy\" diagram is subdivided internally into \"Model\" and \"Data\" aspects, each with their own corresponding control quadrants and associated attack methods.\nFlow:\nflow unclear",
+      "words": 188,
+      "meta": {
+        "figure": "aml_p48",
+        "model": "gemini-3.8-flash",
+        "used_fallback": true
+      },
+      "pdf_start": 48,
+      "pdf_end": 48,
+      "printed_start": "35",
+      "printed_end": "35"
+    },
+    {
+      "id": "fig:aml_p49",
+      "doc": "aml",
+      "title": "NIST AI 100-2 E2025 (Adversarial Machine Learning)",
+      "kind": "figure",
+      "section": "figure, PDF page 49",
+      "text": "Figure title:\nFigure 3. Example LLM Training Pipeline used for InstructGPT [281]\nLabels:\n- Pre-Training\n- Supervised Fine-Tuning\n- Reward Modeling\n- Reinforcement Learning\n- Raw internet data low quality/ large quantity\n- Sets of ideal labeled assistant responses low quantity/high quality\n- Comparisons human written, low quantity/high quality\n- Human Prompts low quantity/ high quality\n- Language modeling predict the next token\n- Language modeling predict the next token\n- Binary Classification predict rewards according to preferences\n- Reinforcement Learning generate tokens that maximize the reward\n- Base Model\n- SFT Model\n- RM Model (not released)\n- RLHF Model\nLayout:\nThe diagram is organized into four vertical columns set inside light blue rounded rectangular panels arranged side-by-side from left to right. Each panel has a top-level stage header: \"Pre-Training\", \"Supervised Fine-Tuning\", \"Reward Modeling\", and \"Reinforcement Learning\". Within each column, three vertically stacked rounded blocks contain details: the top block describes the input data, the middle block describes the modeling/learning task, and the bottom colored block names the resulting model (Base Model, SFT Model, RM Model, and RLHF Model). Grey horizontal arrows link the columns between the top and middle tiers.\nFlow:\nThe pipeline follows a sequential left-to-right flow starting at Pre-Training, moving to Supervised Fine-Tuning, then to Reward Modeling, and concluding at Reinforcement Learning.",
+      "embed_text": "NIST AI 100-2 E2025 (Adversarial Machine Learning), figure on PDF page 49\nFigure title:\nFigure 3. Example LLM Training Pipeline used for InstructGPT [281]\nLabels:\n- Pre-Training\n- Supervised Fine-Tuning\n- Reward Modeling\n- Reinforcement Learning\n- Raw internet data low quality/ large quantity\n- Sets of ideal labeled assistant responses low quantity/high quality\n- Comparisons human written, low quantity/high quality\n- Human Prompts low quantity/ high quality\n- Language modeling predict the next token\n- Language modeling predict the next token\n- Binary Classification predict rewards according to preferences\n- Reinforcement Learning generate tokens that maximize the reward\n- Base Model\n- SFT Model\n- RM Model (not released)\n- RLHF Model\nLayout:\nThe diagram is organized into four vertical columns set inside light blue rounded rectangular panels arranged side-by-side from left to right. Each panel has a top-level stage header: \"Pre-Training\", \"Supervised Fine-Tuning\", \"Reward Modeling\", and \"Reinforcement Learning\". Within each column, three vertically stacked rounded blocks contain details: the top block describes the input data, the middle block describes the modeling/learning task, and the bottom colored block names the resulting model (Base Model, SFT Model, RM Model, and RLHF Model). Grey horizontal arrows link the columns between the top and middle tiers.\nFlow:\nThe pipeline follows a sequential left-to-right flow starting at Pre-Training, moving to Supervised Fine-Tuning, then to Reward Modeling, and concluding at Reinforcement Learning.",
+      "words": 216,
+      "meta": {
+        "figure": "aml_p49",
+        "model": "gemini-3.8-flash",
+        "used_fallback": true
+      },
+      "pdf_start": 49,
+      "pdf_end": 49,
+      "printed_start": "36",
+      "printed_end": "36"
+    },
+    {
+      "id": "fig:aml_p50",
+      "doc": "aml",
+      "title": "NIST AI 100-2 E2025 (Adversarial Machine Learning)",
+      "kind": "figure",
+      "section": "figure, PDF page 50",
+      "text": "Figure title:\nFigure 4. LLM enterprise adoption pipeline\nLabels:\n- Scope\n- Define the problem\n- Select\n- Choose model\n- Adapt and Align Model\n- Prompt engineering\n- Fine-tuning\n- Align with human feedback\n- Evaluate\n- Application Integration\n- Optimize and deploy model for inference\n- Augment model & build LLM -powered apps\nLayout:\nThe figure consists of four chevron-shaped process blocks arranged horizontally side by side from left to right. The first block, titled \"Scope,\" contains \"Define the problem,\" followed by the \"Select\" block containing \"Choose model.\" The third block, \"Adapt and Align Model,\" lists \"Prompt engineering,\" \"Fine-tuning,\" and \"Align with human feedback,\" with a vertical bracket labeled \"Evaluate\" along its right border. The final block, \"Application Integration,\" is subdivided into \"Optimize and deploy model for inference\" on the left and \"Augment model & build LLM -powered apps\" on the right.\nFlow:\nThe process flows sequentially from left to right through four main phases: Scope, Select, Adapt and Align Model, and Application Integration.",
+      "embed_text": "NIST AI 100-2 E2025 (Adversarial Machine Learning), figure on PDF page 50\nFigure title:\nFigure 4. LLM enterprise adoption pipeline\nLabels:\n- Scope\n- Define the problem\n- Select\n- Choose model\n- Adapt and Align Model\n- Prompt engineering\n- Fine-tuning\n- Align with human feedback\n- Evaluate\n- Application Integration\n- Optimize and deploy model for inference\n- Augment model & build LLM -powered apps\nLayout:\nThe figure consists of four chevron-shaped process blocks arranged horizontally side by side from left to right. The first block, titled \"Scope,\" contains \"Define the problem,\" followed by the \"Select\" block containing \"Choose model.\" The third block, \"Adapt and Align Model,\" lists \"Prompt engineering,\" \"Fine-tuning,\" and \"Align with human feedback,\" with a vertical bracket labeled \"Evaluate\" along its right border. The final block, \"Application Integration,\" is subdivided into \"Optimize and deploy model for inference\" on the left and \"Augment model & build LLM -powered apps\" on the right.\nFlow:\nThe process flows sequentially from left to right through four main phases: Scope, Select, Adapt and Align Model, and Application Integration.",
+      "words": 166,
+      "meta": {
+        "figure": "aml_p50",
+        "model": "gemini-3.5-flash",
+        "used_fallback": false
+      },
+      "pdf_start": 50,
+      "pdf_end": 50,
+      "printed_start": "37",
+      "printed_end": "37"
+    },
+    {
+      "id": "fig:aml_p51",
+      "doc": "aml",
+      "title": "NIST AI 100-2 E2025 (Adversarial Machine Learning)",
+      "kind": "figure",
+      "section": "figure, PDF page 51",
+      "text": "1. Figure title:\nFigure 5. LLM enterprise adoption reference architecture\n2. Labels:\n- LLM\n- External Data Sources (E.g. Documents, Database, Web)\n- Prompt Injection/Jailbreaking: token smuggling. role playing\n- Orchestration Library\n- External Applications\n- Trigger API Calls\n- Email Generation\n- Perform Calculations\n3. Layout:\nThe diagram features four main rounded rectangular component boxes arranged in a two-by-two grid layout. On the top left, a light purple box represents the \"LLM\", and on the top right, a blue box represents \"External Data Sources (E.g. Documents, Database, Web)\". Beneath the \"LLM\" box is a blue box labeled \"Orchestration Library\", connected to user and mobile device icons on the left. On the bottom right sits the \"External Applications\" box, which extends to three bulleted actions on the right: \"Trigger API Calls\", \"Email Generation\", and \"Perform Calculations\". Additionally, an orange arrow originating from an attacker icon on the left points directly to the \"LLM\", accompanied by red threat text.\n4. Flow:\nUser inputs pass into the \"Orchestration Library\", which exchanges data bidirectionally with the \"LLM\", \"External Data Sources\", and \"External Applications\". An attacker vector labeled \"Prompt Injection/Jailbreaking: token smuggling. role playing\" injects directly toward the \"LLM\".",
+      "embed_text": "NIST AI 100-2 E2025 (Adversarial Machine Learning), figure on PDF page 51\n1. Figure title:\nFigure 5. LLM enterprise adoption reference architecture\n2. Labels:\n- LLM\n- External Data Sources (E.g. Documents, Database, Web)\n- Prompt Injection/Jailbreaking: token smuggling. role playing\n- Orchestration Library\n- External Applications\n- Trigger API Calls\n- Email Generation\n- Perform Calculations\n3. Layout:\nThe diagram features four main rounded rectangular component boxes arranged in a two-by-two grid layout. On the top left, a light purple box represents the \"LLM\", and on the top right, a blue box represents \"External Data Sources (E.g. Documents, Database, Web)\". Beneath the \"LLM\" box is a blue box labeled \"Orchestration Library\", connected to user and mobile device icons on the left. On the bottom right sits the \"External Applications\" box, which extends to three bulleted actions on the right: \"Trigger API Calls\", \"Email Generation\", and \"Perform Calculations\". Additionally, an orange arrow originating from an attacker icon on the left points directly to the \"LLM\", accompanied by red threat text.\n4. Flow:\nUser inputs pass into the \"Orchestration Library\", which exchanges data bidirectionally with the \"LLM\", \"External Data Sources\", and \"External Applications\". An attacker vector labeled \"Prompt Injection/Jailbreaking: token smuggling. role playing\" injects directly toward the \"LLM\".",
+      "words": 195,
+      "meta": {
+        "figure": "aml_p51",
+        "model": "gemini-3.5-flash",
+        "used_fallback": false
+      },
+      "pdf_start": 51,
+      "pdf_end": 51,
+      "printed_start": "38",
+      "printed_end": "38"
+    },
+    {
+      "id": "fig:aml_p52",
+      "doc": "aml",
+      "title": "NIST AI 100-2 E2025 (Adversarial Machine Learning)",
+      "kind": "figure",
+      "section": "figure, PDF page 52",
+      "text": "Figure title:\nFigure 6. Retrieval-augmented generation\nLabels:\n- Context\n- System\n- You are a helpful financial assistant. Be concise.\n- User\n- What was the net income of ACME in 2020 Q1?\n- Assistant\n- $2.5B, down from $3.6B in 2019 Q1.\n- User\n- What was their operating cash flow?\n- Resources (e.g. vector db)\n- Assistant\n- doc1: ACME announces Q1 results... doc2: Financial results ending Mar 31, 2020...\n- Assistant\n- Input\n- LLM\nLayout:\nThe diagram shows a stacked series of prompt and retrieval components being fed into a language model. On the upper left, a vertical bracket labeled \"Context\" groups four alternating conversation turns labeled \"System\", \"User\", \"Assistant\", and \"User\", each with its corresponding prompt or response text. Below the context section, a cylinder-like icon labeled \"Resources (e.g. vector db)\" links to an \"Assistant\" block containing retrieved document snippets (\"doc1...\", \"doc2...\"), followed by another \"Assistant\" block. A large right-side bracket labeled \"Input\" spans both the context turns and retrieved documents, leading into an oval labeled \"LLM\" on the far right.\nFlow:\nThe conversation history within \"Context\" and the retrieved content originating from \"Resources (e.g. vector db)\" combine under \"Input\", which flows directly into the \"LLM\".",
+      "embed_text": "NIST AI 100-2 E2025 (Adversarial Machine Learning), figure on PDF page 52\nFigure title:\nFigure 6. Retrieval-augmented generation\nLabels:\n- Context\n- System\n- You are a helpful financial assistant. Be concise.\n- User\n- What was the net income of ACME in 2020 Q1?\n- Assistant\n- $2.5B, down from $3.6B in 2019 Q1.\n- User\n- What was their operating cash flow?\n- Resources (e.g. vector db)\n- Assistant\n- doc1: ACME announces Q1 results... doc2: Financial results ending Mar 31, 2020...\n- Assistant\n- Input\n- LLM\nLayout:\nThe diagram shows a stacked series of prompt and retrieval components being fed into a language model. On the upper left, a vertical bracket labeled \"Context\" groups four alternating conversation turns labeled \"System\", \"User\", \"Assistant\", and \"User\", each with its corresponding prompt or response text. Below the context section, a cylinder-like icon labeled \"Resources (e.g. vector db)\" links to an \"Assistant\" block containing retrieved document snippets (\"doc1...\", \"doc2...\"), followed by another \"Assistant\" block. A large right-side bracket labeled \"Input\" spans both the context turns and retrieved documents, leading into an oval labeled \"LLM\" on the far right.\nFlow:\nThe conversation history within \"Context\" and the retrieved content originating from \"Resources (e.g. vector db)\" combine under \"Input\", which flows directly into the \"LLM\".",
+      "words": 201,
+      "meta": {
+        "figure": "aml_p52",
+        "model": "gemini-3.7-flash",
+        "used_fallback": true
+      },
+      "pdf_start": 52,
+      "pdf_end": 52,
+      "printed_start": "39",
+      "printed_end": "39"
+    },
+    {
+      "id": "fig:aml_p60",
+      "doc": "aml",
+      "title": "NIST AI 100-2 E2025 (Adversarial Machine Learning)",
+      "kind": "figure",
+      "section": "figure, PDF page 60",
+      "text": "Figure title:\nFigure 7. Map of the development and deployment life cycle of an AI model for broad-scale query access\nLabels:\n- 1 Before Training\n- 2 Pre-Training\n- 3 Post-Training\n- 4 Evaluation\n- 5 Broad Query Access\n- 6 Monitoring & Reporting\n- 7 Capability Improvements\n- Setup Infrastructure\n- Collect Data\n- Process Data\n- Predictive Evaluations\n- Exposure\n- Fine-Tuning\n- Tool Use\n- Editing\n- Unlearning\n- ...\n- Checkpoint Evaluations\n- Internal Deployment\n- Iteration\n- Capabilities Eval.\n- Safeguards Eval.\n- Interpretability\n- Access Control\n- User <> AI\n- AI <> World\n- API Security\n- Input/Output Modification\n- Constraints\n- Tools\n- Data\n- Safety Improvements\n- Continuous Evaluation\nLayout:\nThe diagram is organized into structured rectangular stages with numbered blue circular header icons outlining the model life cycle. The top row features four sequential primary phases: \"1 Before Training\", \"2 Pre-Training\", \"3 Post-Training\" (paired with \"7 Capability Improvements\"), and \"4 Evaluation\". The bottom row features two operational phases: \"5 Broad Query Access\" on the left, showing internal components like access control, API security, and tools, and \"6 Monitoring & Reporting\" on the right. Connecting feedback lines and arrows run beneath and between the boxes to represent various evaluations, internal deployment routes, iteration loops, and safety improvements.\nFlow:",
+      "embed_text": "NIST AI 100-2 E2025 (Adversarial Machine Learning), figure on PDF page 60\nFigure title:\nFigure 7. Map of the development and deployment life cycle of an AI model for broad-scale query access\nLabels:\n- 1 Before Training\n- 2 Pre-Training\n- 3 Post-Training\n- 4 Evaluation\n- 5 Broad Query Access\n- 6 Monitoring & Reporting\n- 7 Capability Improvements\n- Setup Infrastructure\n- Collect Data\n- Process Data\n- Predictive Evaluations\n- Exposure\n- Fine-Tuning\n- Tool Use\n- Editing\n- Unlearning\n- ...\n- Checkpoint Evaluations\n- Internal Deployment\n- Iteration\n- Capabilities Eval.\n- Safeguards Eval.\n- Interpretability\n- Access Control\n- User <> AI\n- AI <> World\n- API Security\n- Input/Output Modification\n- Constraints\n- Tools\n- Data\n- Safety Improvements\n- Continuous Evaluation\nLayout:\nThe diagram is organized into structured rectangular stages with numbered blue circular header icons outlining the model life cycle. The top row features four sequential primary phases: \"1 Before Training\", \"2 Pre-Training\", \"3 Post-Training\" (paired with \"7 Capability Improvements\"), and \"4 Evaluation\". The bottom row features two operational phases: \"5 Broad Query Access\" on the left, showing internal components like access control, API security, and tools, and \"6 Monitoring & Reporting\" on the right. Connecting feedback lines and arrows run beneath and between the boxes to represent various evaluations, internal deployment routes, iteration loops, and safety improvements.\nFlow:",
+      "words": 217,
+      "meta": {
+        "figure": "aml_p60",
+        "model": "gemini-3.5-flash",
+        "used_fallback": false
+      },
+      "pdf_start": 60,
+      "pdf_end": 60,
+      "printed_start": "3",
+      "printed_end": "3"
+    },
+    {
+      "id": "fig:aml_p60#2",
+      "doc": "aml",
+      "title": "NIST AI 100-2 E2025 (Adversarial Machine Learning)",
+      "kind": "figure",
+      "section": "figure, PDF page 60",
+      "text": "networks flow horizontally across the top from \"1 Before Training\" through \"2 Pre-Training\" and \"3 Post-Training\" to \"4 Evaluation\". From evaluation and pre/post-training stages, paths transition downwards to \"5 Broad Query Access\" and \"6 Monitoring & Reporting\". Feedback pathways direct outputs like \"Iteration\", \"Safety Improvements\", and \"Access Control\" back into earlier development stages.",
+      "embed_text": "NIST AI 100-2 E2025 (Adversarial Machine Learning), figure on PDF page 60\nnetworks flow horizontally across the top from \"1 Before Training\" through \"2 Pre-Training\" and \"3 Post-Training\" to \"4 Evaluation\". From evaluation and pre/post-training stages, paths transition downwards to \"5 Broad Query Access\" and \"6 Monitoring & Reporting\". Feedback pathways direct outputs like \"Iteration\", \"Safety Improvements\", and \"Access Control\" back into earlier development stages.",
+      "words": 53,
+      "meta": {
+        "figure": "aml_p60",
+        "model": "gemini-3.5-flash",
+        "used_fallback": false
+      },
+      "pdf_start": 60,
+      "pdf_end": 60,
+      "printed_start": "3",
+      "printed_end": "3"
+    },
+    {
+      "id": "fig:aml_p68",
+      "doc": "aml",
+      "title": "NIST AI 100-2 E2025 (Adversarial Machine Learning)",
+      "kind": "figure",
+      "section": "figure, PDF page 68",
+      "text": "Figure title:\nFigure 8. Pareto optimality\nLabels:\n- accuracy\n- adversarial robustness\n- Pareto improvement\n- Pareto front\n- Pareto inefficient\n- feasible region\nLayout:\nThe figure consists of a 2D line plot set against perpendicular axes, where the vertical axis is labeled \"accuracy\" and the horizontal axis is labeled \"adversarial robustness\". Inside the plot, a polygonal area representing the \"feasible region\" is bounded by blue line segments at the bottom and left, and an orange top boundary connecting colored data points. The upper orange boundary line is labeled \"Pareto front\". A black point located inside the region is labeled \"Pareto inefficient\", and a cyan double-arrow extends horizontally rightward from this point, labeled \"Pareto improvement\".\nFlow:\nThe diagram shows a directional flow originating at the black dot labeled \"Pareto inefficient\" and moving horizontally along a cyan arrow labeled \"Pareto improvement\" toward the \"Pareto front\".",
+      "embed_text": "NIST AI 100-2 E2025 (Adversarial Machine Learning), figure on PDF page 68\nFigure title:\nFigure 8. Pareto optimality\nLabels:\n- accuracy\n- adversarial robustness\n- Pareto improvement\n- Pareto front\n- Pareto inefficient\n- feasible region\nLayout:\nThe figure consists of a 2D line plot set against perpendicular axes, where the vertical axis is labeled \"accuracy\" and the horizontal axis is labeled \"adversarial robustness\". Inside the plot, a polygonal area representing the \"feasible region\" is bounded by blue line segments at the bottom and left, and an orange top boundary connecting colored data points. The upper orange boundary line is labeled \"Pareto front\". A black point located inside the region is labeled \"Pareto inefficient\", and a cyan double-arrow extends horizontally rightward from this point, labeled \"Pareto improvement\".\nFlow:\nThe diagram shows a directional flow originating at the black dot labeled \"Pareto inefficient\" and moving horizontally along a cyan arrow labeled \"Pareto improvement\" toward the \"Pareto front\".",
+      "words": 144,
+      "meta": {
+        "figure": "aml_p68",
+        "model": "gemini-3.5-flash",
+        "used_fallback": false
+      },
+      "pdf_start": 68,
+      "pdf_end": 68,
+      "printed_start": "55",
+      "printed_end": "55"
+    },
+    {
+      "id": "fig:csf_p10",
+      "doc": "csf",
+      "title": "NIST CSWP 29 (Cybersecurity Framework 2.0)",
+      "kind": "figure",
+      "section": "figure, PDF page 10",
+      "text": "1. Figure title: Fig. 2. CSF Functions\n2. Labels:\n- NIST Cybersecurity Framework\n- GOVERN\n- IDENTIFY\n- PROTECT\n- DETECT\n- RESPOND\n- RECOVER\n3. Layout:\nThe diagram is structured as a series of concentric circular rings. The innermost white circle contains the text \"NIST Cybersecurity Framework\". Encircling this center is a complete yellow ring labeled \"GOVERN\". The outer perimeter is divided into five distinct colored arc segments surrounding the yellow ring. These outer segments are labeled clockwise starting from the top right: \"IDENTIFY\" (blue), \"PROTECT\" (purple), \"DETECT\" (orange), \"RESPOND\" (red), and \"RECOVER\" (green).\n4. Flow:\nflow unclear",
+      "embed_text": "NIST CSWP 29 (Cybersecurity Framework 2.0), figure on PDF page 10\n1. Figure title: Fig. 2. CSF Functions\n2. Labels:\n- NIST Cybersecurity Framework\n- GOVERN\n- IDENTIFY\n- PROTECT\n- DETECT\n- RESPOND\n- RECOVER\n3. Layout:\nThe diagram is structured as a series of concentric circular rings. The innermost white circle contains the text \"NIST Cybersecurity Framework\". Encircling this center is a complete yellow ring labeled \"GOVERN\". The outer perimeter is divided into five distinct colored arc segments surrounding the yellow ring. These outer segments are labeled clockwise starting from the top right: \"IDENTIFY\" (blue), \"PROTECT\" (purple), \"DETECT\" (orange), \"RESPOND\" (red), and \"RECOVER\" (green).\n4. Flow:\nflow unclear",
+      "words": 99,
+      "meta": {
+        "figure": "csf_p10",
+        "model": "gemini-3.5-flash",
+        "used_fallback": false
+      },
+      "pdf_start": 10,
+      "pdf_end": 10,
+      "printed_start": "5",
+      "printed_end": "5"
+    },
+    {
+      "id": "fig:csf_p11",
+      "doc": "csf",
+      "title": "NIST CSWP 29 (Cybersecurity Framework 2.0)",
+      "kind": "figure",
+      "section": "figure, PDF page 11",
+      "text": "1. Figure title:\nFig. 3. Steps for creating and using a CSF Organizational Profile\n2. Labels:\n- NIST Cybersecurity Framework\n- GOVERN\n- IDENTIFY\n- PROTECT\n- DETECT\n- RESPOND\n- RECOVER\n- 1\n- Scope the Organizational Profile\n- 2\n- Gather needed information\n- 3\n- Create the Organizational Profile\n- 4\n- Analyze gaps and create an action plan\n- 5\n- Implement action plan and update Profile\n- Repeat...\n3. Layout:\nThe figure features a segmented circular wheel on the left and a vertical sequence of five numbered rectangular step boxes on the right. The wheel has a central white circle surrounded by six colored arc segments representing cybersecurity functions. On the right, each step consists of a dark blue circle with a step number (1 through 5) attached to a light blue horizontal bar with step description text. A blue arrow line runs down along the numbered steps on the left, turning around below Step 5 near the text \"Repeat...\" to indicate a continuous loop back to the beginning.\n4. Flow:",
+      "embed_text": "NIST CSWP 29 (Cybersecurity Framework 2.0), figure on PDF page 11\n1. Figure title:\nFig. 3. Steps for creating and using a CSF Organizational Profile\n2. Labels:\n- NIST Cybersecurity Framework\n- GOVERN\n- IDENTIFY\n- PROTECT\n- DETECT\n- RESPOND\n- RECOVER\n- 1\n- Scope the Organizational Profile\n- 2\n- Gather needed information\n- 3\n- Create the Organizational Profile\n- 4\n- Analyze gaps and create an action plan\n- 5\n- Implement action plan and update Profile\n- Repeat...\n3. Layout:\nThe figure features a segmented circular wheel on the left and a vertical sequence of five numbered rectangular step boxes on the right. The wheel has a central white circle surrounded by six colored arc segments representing cybersecurity functions. On the right, each step consists of a dark blue circle with a step number (1 through 5) attached to a light blue horizontal bar with step description text. A blue arrow line runs down along the numbered steps on the left, turning around below Step 5 near the text \"Repeat...\" to indicate a continuous loop back to the beginning.\n4. Flow:",
+      "words": 176,
+      "meta": {
+        "figure": "csf_p11",
+        "model": "gemini-3.5-flash",
+        "used_fallback": false
+      },
+      "pdf_start": 11,
+      "pdf_end": 11,
+      "printed_start": "6",
+      "printed_end": "6"
+    },
+    {
+      "id": "fig:csf_p11#2",
+      "doc": "csf",
+      "title": "NIST CSWP 29 (Cybersecurity Framework 2.0)",
+      "kind": "figure",
+      "section": "figure, PDF page 11",
+      "text": "The process flows sequentially down from \"1 Scope the Organizational Profile\" through \"2 Gather needed information\", \"3 Create the Organizational Profile\", \"4 Analyze gaps and create an action plan\", to \"5 Implement action plan and update Profile\". From Step 5, the flow loops back at \"Repeat...\" to restart the continuous process.",
+      "embed_text": "NIST CSWP 29 (Cybersecurity Framework 2.0), figure on PDF page 11\nThe process flows sequentially down from \"1 Scope the Organizational Profile\" through \"2 Gather needed information\", \"3 Create the Organizational Profile\", \"4 Analyze gaps and create an action plan\", to \"5 Implement action plan and update Profile\". From Step 5, the flow loops back at \"Repeat...\" to restart the continuous process.",
+      "words": 51,
+      "meta": {
+        "figure": "csf_p11",
+        "model": "gemini-3.5-flash",
+        "used_fallback": false
+      },
+      "pdf_start": 11,
+      "pdf_end": 11,
+      "printed_start": "6",
+      "printed_end": "6"
+    },
+    {
+      "id": "fig:csf_p13",
+      "doc": "csf",
+      "title": "NIST CSWP 29 (Cybersecurity Framework 2.0)",
+      "kind": "figure",
+      "section": "figure, PDF page 13",
+      "text": "1. Figure title:\nFig. 4. CSF Tiers for cybersecurity risk governance and management\n2. Labels:\n- Tier 1\n- Partial\n- Tier 2\n- Risk-Informed\n- Tier 3\n- Repeatable\n- Tier 4\n- Adaptive\n3. Layout:\nposition block diagram consists of four adjacent vertical columns of increasing height, forming a stepped bar arrangement from left to right. Each block is shaded in a shade of blue and contains two lines of text centered near its top. The first column on the left contains \"Tier 1\" above \"Partial\". The second column, slightly taller, contains \"Tier 2\" above \"Risk-Informed\". The third taller column holds \"Tier 3\" above \"Repeatable\", and the fourth, tallest column on the far right contains \"Tier 4\" above \"Adaptive\".\n4. Flow:\nThe diagram shows a left-to-right ascending progression through four levels of risk management maturity. The sequence steps up from Tier 1 (Partial) to Tier 2 (Risk-Informed), continuing through Tier 3 (Repeatable), and reaching the highest level at Tier 4 (Adaptive).",
+      "embed_text": "NIST CSWP 29 (Cybersecurity Framework 2.0), figure on PDF page 13\n1. Figure title:\nFig. 4. CSF Tiers for cybersecurity risk governance and management\n2. Labels:\n- Tier 1\n- Partial\n- Tier 2\n- Risk-Informed\n- Tier 3\n- Repeatable\n- Tier 4\n- Adaptive\n3. Layout:\nposition block diagram consists of four adjacent vertical columns of increasing height, forming a stepped bar arrangement from left to right. Each block is shaded in a shade of blue and contains two lines of text centered near its top. The first column on the left contains \"Tier 1\" above \"Partial\". The second column, slightly taller, contains \"Tier 2\" above \"Risk-Informed\". The third taller column holds \"Tier 3\" above \"Repeatable\", and the fourth, tallest column on the far right contains \"Tier 4\" above \"Adaptive\".\n4. Flow:\nThe diagram shows a left-to-right ascending progression through four levels of risk management maturity. The sequence steps up from Tier 1 (Partial) to Tier 2 (Risk-Informed), continuing through Tier 3 (Repeatable), and reaching the highest level at Tier 4 (Adaptive).",
+      "words": 163,
+      "meta": {
+        "figure": "csf_p13",
+        "model": "gemini-3.5-flash",
+        "used_fallback": false
+      },
+      "pdf_start": 13,
+      "pdf_end": 13,
+      "printed_start": "8",
+      "printed_end": "8"
+    },
+    {
+      "id": "fig:csf_p15",
+      "doc": "csf",
+      "title": "NIST CSWP 29 (Cybersecurity Framework 2.0)",
+      "kind": "figure",
+      "section": "figure, PDF page 15",
+      "text": "1. Figure title: Fig. 5. Using the CSF to improve risk management communication\n2. Labels:\n- Executives\n- Managers\n- Practitioners\n- Mission Priority and Risk Appetite and Budget\n- Framework Profiles\n- Changes in Current and Future Risk\n- Implementation Progress\n3. Layout:\nThe diagram is structured centrally around three organizational roles arranged vertically: \"Executives\" at the top, \"Managers\" in the middle, and \"Practitioners\" at the bottom. On the right side, information labels \"Mission Priority and Risk Appetite and Budget\" and \"Framework Profiles\" are placed alongside downward-pointing arrows. On the left side, communication feedback labels \"Changes in Current and Future Risk\" and \"Implementation Progress\" are positioned along upward-pointing arrows. Each role is accompanied by a representative visual icon depicting people or technical concepts.\n4. Flow:\nThe diagram shows a continuous bidirectional flow between the organizational levels. Strategic direction flows downward from Executives to Managers to Practitioners via \"Mission Priority and Risk Appetite and Budget\" and \"Framework Profiles.\" Operational feedback flows upward from Practitioners through Managers to Executives via \"Implementation Progress\" and \"Changes in Current and Future Risk.\"",
+      "embed_text": "NIST CSWP 29 (Cybersecurity Framework 2.0), figure on PDF page 15\n1. Figure title: Fig. 5. Using the CSF to improve risk management communication\n2. Labels:\n- Executives\n- Managers\n- Practitioners\n- Mission Priority and Risk Appetite and Budget\n- Framework Profiles\n- Changes in Current and Future Risk\n- Implementation Progress\n3. Layout:\nThe diagram is structured centrally around three organizational roles arranged vertically: \"Executives\" at the top, \"Managers\" in the middle, and \"Practitioners\" at the bottom. On the right side, information labels \"Mission Priority and Risk Appetite and Budget\" and \"Framework Profiles\" are placed alongside downward-pointing arrows. On the left side, communication feedback labels \"Changes in Current and Future Risk\" and \"Implementation Progress\" are positioned along upward-pointing arrows. Each role is accompanied by a representative visual icon depicting people or technical concepts.\n4. Flow:\nThe diagram shows a continuous bidirectional flow between the organizational levels. Strategic direction flows downward from Executives to Managers to Practitioners via \"Mission Priority and Risk Appetite and Budget\" and \"Framework Profiles.\" Operational feedback flows upward from Practitioners through Managers to Executives via \"Implementation Progress\" and \"Changes in Current and Future Risk.\"",
+      "words": 178,
+      "meta": {
+        "figure": "csf_p15",
+        "model": "gemini-3.5-flash",
+        "used_fallback": false
+      },
+      "pdf_start": 15,
+      "pdf_end": 15,
+      "printed_start": "10",
+      "printed_end": "10"
+    },
+    {
+      "id": "fig:csf_p18",
+      "doc": "csf",
+      "title": "NIST CSWP 29 (Cybersecurity Framework 2.0)",
+      "kind": "figure",
+      "section": "figure, PDF page 18",
+      "text": "Figure title:\nFig. 6. Cybersecurity and privacy risk relationship\nLabels:\n- Cybersecurity Risks\n- associated with cybersecurity incidents arising from loss of confidentiality, integrity, or availability\n- cyber security-related privacy events\n- Privacy Risks\n- associated with privacy events arising from data processing\nLayout:\nThe figure is a Venn diagram composed of two overlapping circles representing two risk domains. The light blue circle on the left contains text defining cybersecurity risks, while the light purple circle on the right defines privacy risks. The central overlapping section contains text representing the intersection where privacy events are related to cybersecurity.\nFlow:\nflow unclear",
+      "embed_text": "NIST CSWP 29 (Cybersecurity Framework 2.0), figure on PDF page 18\nFigure title:\nFig. 6. Cybersecurity and privacy risk relationship\nLabels:\n- Cybersecurity Risks\n- associated with cybersecurity incidents arising from loss of confidentiality, integrity, or availability\n- cyber security-related privacy events\n- Privacy Risks\n- associated with privacy events arising from data processing\nLayout:\nThe figure is a Venn diagram composed of two overlapping circles representing two risk domains. The light blue circle on the left contains text defining cybersecurity risks, while the light purple circle on the right defines privacy risks. The central overlapping section contains text representing the intersection where privacy events are related to cybersecurity.\nFlow:\nflow unclear",
+      "words": 101,
+      "meta": {
+        "figure": "csf_p18",
+        "model": "gemini-3.5-flash",
+        "used_fallback": false
+      },
+      "pdf_start": 18,
+      "pdf_end": 18,
+      "printed_start": "13",
+      "printed_end": "13"
+    },
+    {
+      "id": "fig:csf_p8",
+      "doc": "csf",
+      "title": "NIST CSWP 29 (Cybersecurity Framework 2.0)",
+      "kind": "figure",
+      "section": "figure, PDF page 8",
+      "text": "1. Figure title:\nFig. 1. CSF Core structure\n2. Labels:\n- Cybersecurity Framework Core\n- Functions\n- Categories\n- Subcategories\n- Govern\n- Identify\n- Protect\n- Detect\n- Respond\n- Recover\n3. Layout:\nposition at the top is a blue-bordered box labeled \"Cybersecurity Framework Core,\" which branches downward into three column headings: \"Functions,\" \"Categories,\" and \"Subcategories.\" Under \"Functions,\" six color-coded rectangular blocks are stacked vertically: \"Govern,\" \"Identify,\" \"Protect,\" \"Detect,\" \"Respond,\" and \"Recover.\" Lines extend from the \"Functions\" block to a central column of five stacked grey boxes under \"Categories.\" These grey boxes further expand via branching lines into a rightmost column containing ten stacked empty rectangular boxes under \"Subcategories.\"\n4. Flow:\nThe diagram shows a hierarchical decomposition flowing horizontally from left to right, moving from broad \"Functions\" to specific \"Categories,\" and finally branching into granular \"Subcategories.\"",
+      "embed_text": "NIST CSWP 29 (Cybersecurity Framework 2.0), figure on PDF page 8\n1. Figure title:\nFig. 1. CSF Core structure\n2. Labels:\n- Cybersecurity Framework Core\n- Functions\n- Categories\n- Subcategories\n- Govern\n- Identify\n- Protect\n- Detect\n- Respond\n- Recover\n3. Layout:\nposition at the top is a blue-bordered box labeled \"Cybersecurity Framework Core,\" which branches downward into three column headings: \"Functions,\" \"Categories,\" and \"Subcategories.\" Under \"Functions,\" six color-coded rectangular blocks are stacked vertically: \"Govern,\" \"Identify,\" \"Protect,\" \"Detect,\" \"Respond,\" and \"Recover.\" Lines extend from the \"Functions\" block to a central column of five stacked grey boxes under \"Categories.\" These grey boxes further expand via branching lines into a rightmost column containing ten stacked empty rectangular boxes under \"Subcategories.\"\n4. Flow:\nThe diagram shows a hierarchical decomposition flowing horizontally from left to right, moving from broad \"Functions\" to specific \"Categories,\" and finally branching into granular \"Subcategories.\"",
+      "words": 137,
+      "meta": {
+        "figure": "csf_p8",
+        "model": "gemini-3.5-flash",
+        "used_fallback": false
+      },
+      "pdf_start": 8,
+      "pdf_end": 8,
+      "printed_start": "3",
+      "printed_end": "3"
+    },
+    {
+      "id": "fig:owasp_p43",
+      "doc": "owasp",
+      "title": "OWASP Top 10 for LLM Applications 2025",
+      "kind": "figure",
+      "section": "figure, PDF page 43",
+      "text": "1. Figure title:\nnone\n2. Labels:\n- OWASP Top 10 LLM Applications and Generative AI - 2025 Version\n- Example LLM Application and Basic Threat Modeling\n- Ads Dawson (GangGreenTemperTatum) | https://genai.owasp.org/ Nov 2025 - v.01 SaaS LLM application\n- API04, 08\n- CWE-200, 255\n- LLM10 Unbounded Consumption\n- AML:TA0000\n- AML:T0024\n- AML:T0029\n- AML:T0034\n- AML:T0025\n- Inference\n- AML:T0051.000 - AML:T0051.001 - AML:T0054 - LLA\n- LLM01 Promt Injection\n- CWE-20, 77\n- LLM09 Misinformation\n- AML:T0048.002\n- Client/malicious actor inputs (prompt + context) CRUD operations\n- Untrusted medium (IE Internet) Our external prompt sources are most commonly untrusted, hard to validate integrity and are mostly if not all, from untrusted entities\n- Ingress\n- Application Services (Core/Greenfield)\n- CWE-113\n- Improper Output Handling LLM05\n- AML:T0015\n- System Prompt Leakage LLM07\n- AML:T0053\n- AML:T0056\n- CWE-1246\n- LLM02 Sensitive Info Disclosure AML:T0024.000 AML:T0024.001 AML:T0024.002\n- API04\n- CWE-400, 770\n- LLM06 Excessive Agency\n- CWE-285, 306 CWE-732, 755\n- LLM Production Services\n- LLM Automation (Agents)\n- LLM Model\n- Execute/Store\n- Read/Write\n- Semantic Query\n- Matching Vectors\n- Vector DB\n- Server-side functions\n- Core application services\n- Cloud and serverless functions\n- Virtual environments and emulators\n- Plugins and API integrations\n- Other production environments\n- MLR/Training environments",
+      "embed_text": "OWASP Top 10 for LLM Applications 2025, figure on PDF page 43\n1. Figure title:\nnone\n2. Labels:\n- OWASP Top 10 LLM Applications and Generative AI - 2025 Version\n- Example LLM Application and Basic Threat Modeling\n- Ads Dawson (GangGreenTemperTatum) | https://genai.owasp.org/ Nov 2025 - v.01 SaaS LLM application\n- API04, 08\n- CWE-200, 255\n- LLM10 Unbounded Consumption\n- AML:TA0000\n- AML:T0024\n- AML:T0029\n- AML:T0034\n- AML:T0025\n- Inference\n- AML:T0051.000 - AML:T0051.001 - AML:T0054 - LLA\n- LLM01 Promt Injection\n- CWE-20, 77\n- LLM09 Misinformation\n- AML:T0048.002\n- Client/malicious actor inputs (prompt + context) CRUD operations\n- Untrusted medium (IE Internet) Our external prompt sources are most commonly untrusted, hard to validate integrity and are mostly if not all, from untrusted entities\n- Ingress\n- Application Services (Core/Greenfield)\n- CWE-113\n- Improper Output Handling LLM05\n- AML:T0015\n- System Prompt Leakage LLM07\n- AML:T0053\n- AML:T0056\n- CWE-1246\n- LLM02 Sensitive Info Disclosure AML:T0024.000 AML:T0024.001 AML:T0024.002\n- API04\n- CWE-400, 770\n- LLM06 Excessive Agency\n- CWE-285, 306 CWE-732, 755\n- LLM Production Services\n- LLM Automation (Agents)\n- LLM Model\n- Execute/Store\n- Read/Write\n- Semantic Query\n- Matching Vectors\n- Vector DB\n- Server-side functions\n- Core application services\n- Cloud and serverless functions\n- Virtual environments and emulators\n- Plugins and API integrations\n- Other production environments\n- MLR/Training environments",
+      "words": 217,
+      "meta": {
+        "figure": "owasp_p43",
+        "model": "gemini-3.7-flash",
+        "used_fallback": true
+      },
+      "pdf_start": 43,
+      "pdf_end": 43,
+      "printed_start": "39",
+      "printed_end": "39"
+    },
+    {
+      "id": "fig:owasp_p43#2",
+      "doc": "owasp",
+      "title": "OWASP Top 10 for LLM Applications 2025",
+      "kind": "figure",
+      "section": "figure, PDF page 43",
+      "text": "- CI/CD environments\n- Artifacts environments\n- TB01\n- TB02\n- TB03\n- TB = Trust Boundary\n- (RAG) private data stores\n- Embeddings\n- Databases\n- Documents\n- Storage environments\n- Grounding/ URL Scraping\n- LLM08 Vector & Embedding Weaknesses\n- AML:T0054\n- This diagram deceipts the vulnerabilities described in the OWASP Top 10 for LLM Applications and Generative AI as they apply to the components comprising a typical logical architecture of an LLM application.\n- This is not intended to serve as a comprehensive threat model, nor full traditional architecture\n- API10\n- CWE-79, 89\n- CWE-116, 601, 643\n- Fine-tuning Data\n- Training Data\n- Training Dataset and Processing (cleansing, anonymizing etc.)\n- ML Engineer\n- Data Scientist\n- CWE-200, 209\n- LLM04 Model Data Poisoning\n- AML:T0018\n- AML:T0020\n- AML:T0031\n- CWE-20, 125\n- External Data Sources\n- CWE-937, 1104\n- LLM03 Supply Chain\n- AML:T0010\n- Untrusted medium (IE Internet)\n3. Layout:",
+      "embed_text": "OWASP Top 10 for LLM Applications 2025, figure on PDF page 43\n- CI/CD environments\n- Artifacts environments\n- TB01\n- TB02\n- TB03\n- TB = Trust Boundary\n- (RAG) private data stores\n- Embeddings\n- Databases\n- Documents\n- Storage environments\n- Grounding/ URL Scraping\n- LLM08 Vector & Embedding Weaknesses\n- AML:T0054\n- This diagram deceipts the vulnerabilities described in the OWASP Top 10 for LLM Applications and Generative AI as they apply to the components comprising a typical logical architecture of an LLM application.\n- This is not intended to serve as a comprehensive threat model, nor full traditional architecture\n- API10\n- CWE-79, 89\n- CWE-116, 601, 643\n- Fine-tuning Data\n- Training Data\n- Training Dataset and Processing (cleansing, anonymizing etc.)\n- ML Engineer\n- Data Scientist\n- CWE-200, 209\n- LLM04 Model Data Poisoning\n- AML:T0018\n- AML:T0020\n- AML:T0031\n- CWE-20, 125\n- External Data Sources\n- CWE-937, 1104\n- LLM03 Supply Chain\n- AML:T0010\n- Untrusted medium (IE Internet)\n3. Layout:",
+      "words": 158,
+      "meta": {
+        "figure": "owasp_p43",
+        "model": "gemini-3.7-flash",
+        "used_fallback": true
+      },
+      "pdf_start": 43,
+      "pdf_end": 43,
+      "printed_start": "39",
+      "printed_end": "39"
+    },
+    {
+      "id": "fig:owasp_p43#3",
+      "doc": "owasp",
+      "title": "OWASP Top 10 for LLM Applications 2025",
+      "kind": "figure",
+      "section": "figure, PDF page 43",
+      "text": "The diagram illustrates the architecture and threat model of a SaaS LLM application. The left side and bottom right feature cloud-shaped regions representing untrusted internet mediums. The central and upper sections represent the inference pipeline, containing Ingress, Application Services, LLM Production Services (with Agents and the LLM Model), Vector DB, RAG Private Data Stores, and Server-side functions. The lower-left and bottom-center areas contain the data and training workflows, showing an ML Engineer, Data Scientist, Fine-tuning Data, Training Data, and External Data Sources. OWASP Top 10 vulnerability tags (LLM01 through LLM10) alongside associated CWE, API, and AML identifiers are overlaid across their corresponding components and trust boundaries.\n4. Flow:\nPrompts flow from the client through Ingress into Application Services and LLM Production Services, which interact with Vector DB and private RAG data stores via semantic queries and vector matching, and with server-side functions via execution and storage calls. Concurrently, data flows from External Data Sources, overseen by the ML Engineer and Data Scientist, through dataset processing into Training and Fine-tuning Data to supply the LLM Model.",
+      "embed_text": "OWASP Top 10 for LLM Applications 2025, figure on PDF page 43\nThe diagram illustrates the architecture and threat model of a SaaS LLM application. The left side and bottom right feature cloud-shaped regions representing untrusted internet mediums. The central and upper sections represent the inference pipeline, containing Ingress, Application Services, LLM Production Services (with Agents and the LLM Model), Vector DB, RAG Private Data Stores, and Server-side functions. The lower-left and bottom-center areas contain the data and training workflows, showing an ML Engineer, Data Scientist, Fine-tuning Data, Training Data, and External Data Sources. OWASP Top 10 vulnerability tags (LLM01 through LLM10) alongside associated CWE, API, and AML identifiers are overlaid across their corresponding components and trust boundaries.\n4. Flow:\nPrompts flow from the client through Ingress into Application Services and LLM Production Services, which interact with Vector DB and private RAG data stores via semantic queries and vector matching, and with server-side functions via execution and storage calls. Concurrently, data flows from External Data Sources, overseen by the ML Engineer and Data Scientist, through dataset processing into Training and Fine-tuning Data to supply the LLM Model.",
+      "words": 175,
+      "meta": {
+        "figure": "owasp_p43",
+        "model": "gemini-3.7-flash",
+        "used_fallback": true
+      },
+      "pdf_start": 43,
+      "pdf_end": 43,
+      "printed_start": "39",
+      "printed_end": "39"
+    },
+    {
+      "id": "fig:rmf_p10",
+      "doc": "rmf",
+      "title": "NIST AI 100-1 (AI RMF 1.0)",
+      "kind": "figure",
+      "section": "figure, PDF page 10",
+      "text": "1. Figure title:\nFig. 1. Examples of potential harms related to AI systems. Trustworthy AI systems and their responsible use can mitigate negative risks and contribute to benefits for people, organizations, and ecosystems.\n2. Labels:\n- Harm to People\n- Individual: Harm to a person's civil liberties, rights, physical or psychological safety, or economic opportunity.\n- Group/Community: Harm to a group such as discrimination against a population sub-group.\n- Societal: Harm to democratic participation or educational access.\n- Harm to an Organization\n- Harm to an organization's business operations.\n- Harm to an organization from security breaches or monetary loss.\n- Harm to an organization's reputation.\n- Harm to an Ecosystem\n- Harm to interconnected and interdependent elements and resources.\n- Harm to the global financial system, supply chain, or interrelated systems.\n- Harm to natural resources, the environment, and planet.\n3. Layout:\nThe figure is arranged into three vertical rectangular cards placed side by side. Each card has a dark blue header containing a major category name: \"Harm to People\", \"Harm to an Organization\", and \"Harm to an Ecosystem\". Inside the light gray box beneath each header, three bulleted sub-points describe specific examples of harm related to that category. Thin yellow horizontal line segments connect the three cards across the center.\n4. Flow:\nflow unclear",
+      "embed_text": "NIST AI 100-1 (AI RMF 1.0), figure on PDF page 10\n1. Figure title:\nFig. 1. Examples of potential harms related to AI systems. Trustworthy AI systems and their responsible use can mitigate negative risks and contribute to benefits for people, organizations, and ecosystems.\n2. Labels:\n- Harm to People\n- Individual: Harm to a person's civil liberties, rights, physical or psychological safety, or economic opportunity.\n- Group/Community: Harm to a group such as discrimination against a population sub-group.\n- Societal: Harm to democratic participation or educational access.\n- Harm to an Organization\n- Harm to an organization's business operations.\n- Harm to an organization from security breaches or monetary loss.\n- Harm to an organization's reputation.\n- Harm to an Ecosystem\n- Harm to interconnected and interdependent elements and resources.\n- Harm to the global financial system, supply chain, or interrelated systems.\n- Harm to natural resources, the environment, and planet.\n3. Layout:\nThe figure is arranged into three vertical rectangular cards placed side by side. Each card has a dark blue header containing a major category name: \"Harm to People\", \"Harm to an Organization\", and \"Harm to an Ecosystem\". Inside the light gray box beneath each header, three bulleted sub-points describe specific examples of harm related to that category. Thin yellow horizontal line segments connect the three cards across the center.\n4. Flow:\nflow unclear",
+      "words": 216,
+      "meta": {
+        "figure": "rmf_p10",
+        "model": "gemini-3.5-flash",
+        "used_fallback": false
+      },
+      "pdf_start": 10,
+      "pdf_end": 10,
+      "printed_start": "5",
+      "printed_end": "5"
+    },
+    {
+      "id": "fig:rmf_p15",
+      "doc": "rmf",
+      "title": "NIST AI 100-1 (AI RMF 1.0)",
+      "kind": "figure",
+      "section": "figure, PDF page 15",
+      "text": "Figure title: Fig. 2. Lifecycle and Key Dimensions of an AI System. Modified from OECD (2022) OECD Framework for the Classification of AI systems — OECD Digital Economy Papers.\nLabels:\n- People and Planet\n- Application Context\n- Data and Input\n- AI Model\n- Task and Output\n- Plan and Design\n- Collect and process data\n- Build and use model\n- Verify and validate\n- Deploy and Use\n- Operate and Monitor\nLayout:\nThe diagram is organized as a set of concentric circular layers. At the center is a solid gray circle labeled \"People and Planet\". Encircling the center is an inner ring divided into four colored quadrants representing key AI system dimensions: \"Application Context\" (top-left, orange), \"Data and Input\" (top-right, blue), \"AI Model\" (bottom-right, green), and \"Task and Output\" (bottom-left, dark blue-gray). The outermost ring is partitioned into six colored segments representing lifecycle stages that align with the corresponding inner dimensions: \"Plan and Design\", \"Collect and process data\", \"Build and use model\", \"Verify and validate\", \"Deploy and Use\", and \"Operate and Monitor\".\nFlow:\nThe outer ring follows a clockwise circular progression through the lifecycle stages: starting at Plan and Design, continuing through Collect and process data, Build and use model, Verify and validate, Deploy and Use, and Operate and Monitor.",
+      "embed_text": "NIST AI 100-1 (AI RMF 1.0), figure on PDF page 15\nFigure title: Fig. 2. Lifecycle and Key Dimensions of an AI System. Modified from OECD (2022) OECD Framework for the Classification of AI systems — OECD Digital Economy Papers.\nLabels:\n- People and Planet\n- Application Context\n- Data and Input\n- AI Model\n- Task and Output\n- Plan and Design\n- Collect and process data\n- Build and use model\n- Verify and validate\n- Deploy and Use\n- Operate and Monitor\nLayout:\nThe diagram is organized as a set of concentric circular layers. At the center is a solid gray circle labeled \"People and Planet\". Encircling the center is an inner ring divided into four colored quadrants representing key AI system dimensions: \"Application Context\" (top-left, orange), \"Data and Input\" (top-right, blue), \"AI Model\" (bottom-right, green), and \"Task and Output\" (bottom-left, dark blue-gray). The outermost ring is partitioned into six colored segments representing lifecycle stages that align with the corresponding inner dimensions: \"Plan and Design\", \"Collect and process data\", \"Build and use model\", \"Verify and validate\", \"Deploy and Use\", and \"Operate and Monitor\".\nFlow:\nThe outer ring follows a clockwise circular progression through the lifecycle stages: starting at Plan and Design, continuing through Collect and process data, Build and use model, Verify and validate, Deploy and Use, and Operate and Monitor.",
+      "words": 213,
+      "meta": {
+        "figure": "rmf_p15",
+        "model": "gemini-3.7-flash",
+        "used_fallback": true
+      },
+      "pdf_start": 15,
+      "pdf_end": 15,
+      "printed_start": "10",
+      "printed_end": "10"
+    },
+    {
+      "id": "fig:rmf_p16",
+      "doc": "rmf",
+      "title": "NIST AI 100-1 (AI RMF 1.0)",
+      "kind": "figure",
+      "section": "figure, PDF page 16",
+      "text": "1. Figure title:\nFig. 3. AI actors across AI lifecycle stages. See Appendix A for detailed descriptions of AI actor tasks, including details about testing, evaluation, verification, and validation tasks. Note that AI actors in the AI Model dimension (Figure 2) are separated as a best practice, with those building and using the models separated from those verifying and validating the models.\n2. Labels:\n- Row Headers (Left):\n- Key Dimensions\n- Lifecycle Stage\n- TEVV\n- Activities\n- Representative Actors\n- Column 1 (Orange):\n- Application Context\n- Plan and Design\n- TEVV includes audit & impact assessment\n- Articulate and document the system's concept and objectives, underlying assumptions, and context in light of legal and regulatory requirements and ethical considerations.\n- System operators; end users; domain experts; AI designers; impact assessors; TEVV experts; product managers; compliance experts; auditors; governance experts; organizational management; C-suite executives; impacted individuals/communities; evaluators.\n- Column 2 (Blue):\n- Data & Input\n- Collect and Process Data\n- TEVV includes internal & external validation\n- Gather, validate, and clean data and document the metadata and characteristics of the dataset, in light of objectives, legal and regulatory ethical considerations.\n- Data scientists; data engineers; data providers; domain experts; socio-cultural analysts; human factors experts; TEVV experts.\n- Column 3 (Green):",
+      "embed_text": "NIST AI 100-1 (AI RMF 1.0), figure on PDF page 16\n1. Figure title:\nFig. 3. AI actors across AI lifecycle stages. See Appendix A for detailed descriptions of AI actor tasks, including details about testing, evaluation, verification, and validation tasks. Note that AI actors in the AI Model dimension (Figure 2) are separated as a best practice, with those building and using the models separated from those verifying and validating the models.\n2. Labels:\n- Row Headers (Left):\n- Key Dimensions\n- Lifecycle Stage\n- TEVV\n- Activities\n- Representative Actors\n- Column 1 (Orange):\n- Application Context\n- Plan and Design\n- TEVV includes audit & impact assessment\n- Articulate and document the system's concept and objectives, underlying assumptions, and context in light of legal and regulatory requirements and ethical considerations.\n- System operators; end users; domain experts; AI designers; impact assessors; TEVV experts; product managers; compliance experts; auditors; governance experts; organizational management; C-suite executives; impacted individuals/communities; evaluators.\n- Column 2 (Blue):\n- Data & Input\n- Collect and Process Data\n- TEVV includes internal & external validation\n- Gather, validate, and clean data and document the metadata and characteristics of the dataset, in light of objectives, legal and regulatory ethical considerations.\n- Data scientists; data engineers; data providers; domain experts; socio-cultural analysts; human factors experts; TEVV experts.\n- Column 3 (Green):",
+      "words": 213,
+      "meta": {
+        "figure": "rmf_p16",
+        "model": "gemini-3.5-flash",
+        "used_fallback": false
+      },
+      "pdf_start": 16,
+      "pdf_end": 16,
+      "printed_start": "11",
+      "printed_end": "11"
+    },
+    {
+      "id": "fig:rmf_p16#2",
+      "doc": "rmf",
+      "title": "NIST AI 100-1 (AI RMF 1.0)",
+      "kind": "figure",
+      "section": "figure, PDF page 16",
+      "text": "- AI Model\n- Build and Use Model\n- TEVV includes model testing\n- Create or select algorithms; train models.\n- Column 4 (Teal):\n- AI Model\n- Verify and Validate\n- TEVV includes model testing\n- Verify & validate, calibrate, and interpret model output.\n- Merged Columns 3 & 4 Block (Representative Actors):\n- Modelers; model engineers; data scientists; developers; domain experts; with consultation of socio-cultural analysts familiar with the application context and TEVV experts.\n- Column 5 (Purple):\n- Task & Output\n- Deploy and Use\n- TEVV includes integration, compliance testing & validation\n- Pilot, check compatibility with legacy systems, verify regulatory compliance, manage organizational change, and evaluate user experience.\n- System integrators; developers; systems engineers; software engineers; domain experts; procurement experts; third-party suppliers; C-suite executives; with consultation of human factors experts, socio-cultural analysts, governance experts, TEVV experts,\n- Column 6 (Yellow):\n- Application Context\n- Operate and Monitor\n- TEVV includes audit & impact assessment\n- Operate the AI system and continuously assess its recommendations and impacts (both intended and unintended) in light of objectives, legal and regulatory requirements, and ethical considerations.\n- System operators, end users, and practitioners; domain experts; AI designers; impact assessors; TEVV experts; system funders; product managers; compliance experts; auditors; governance experts; organizational management; impact-ed individuals/communities; evaluators.\n- Column 7 (Grey):",
+      "embed_text": "NIST AI 100-1 (AI RMF 1.0), figure on PDF page 16\n- AI Model\n- Build and Use Model\n- TEVV includes model testing\n- Create or select algorithms; train models.\n- Column 4 (Teal):\n- AI Model\n- Verify and Validate\n- TEVV includes model testing\n- Verify & validate, calibrate, and interpret model output.\n- Merged Columns 3 & 4 Block (Representative Actors):\n- Modelers; model engineers; data scientists; developers; domain experts; with consultation of socio-cultural analysts familiar with the application context and TEVV experts.\n- Column 5 (Purple):\n- Task & Output\n- Deploy and Use\n- TEVV includes integration, compliance testing & validation\n- Pilot, check compatibility with legacy systems, verify regulatory compliance, manage organizational change, and evaluate user experience.\n- System integrators; developers; systems engineers; software engineers; domain experts; procurement experts; third-party suppliers; C-suite executives; with consultation of human factors experts, socio-cultural analysts, governance experts, TEVV experts,\n- Column 6 (Yellow):\n- Application Context\n- Operate and Monitor\n- TEVV includes audit & impact assessment\n- Operate the AI system and continuously assess its recommendations and impacts (both intended and unintended) in light of objectives, legal and regulatory requirements, and ethical considerations.\n- System operators, end users, and practitioners; domain experts; AI designers; impact assessors; TEVV experts; system funders; product managers; compliance experts; auditors; governance experts; organizational management; impact-ed individuals/communities; evaluators.\n- Column 7 (Grey):",
+      "words": 219,
+      "meta": {
+        "figure": "rmf_p16",
+        "model": "gemini-3.5-flash",
+        "used_fallback": false
+      },
+      "pdf_start": 16,
+      "pdf_end": 16,
+      "printed_start": "11",
+      "printed_end": "11"
+    },
+    {
+      "id": "fig:rmf_p16#3",
+      "doc": "rmf",
+      "title": "NIST AI 100-1 (AI RMF 1.0)",
+      "kind": "figure",
+      "section": "figure, PDF page 16",
+      "text": "- People & Planet\n- Use or Impacted by\n- TEVV includes audit & impact assessment\n- Use system/technology; monitor & assess impacts; seek mitigation of impacts, advocate for rights.\n- End users, operators, and practitioners; impacted individuals/communities; general public; policy makers; standards organizations; trade associations; advocacy groups; environmental groups; civil society organizations; researchers.\n3. Layout:\nThe figure is organized as a grid matrix with five main rows labeled vertically along the left edge. The top section consists of seven color-coded vertical columns, each representing a distinct stage in the AI lifecycle. The top three rows (\"Key Dimensions\", \"Lifecycle Stage\", and \"TEVV\") form rounded, colored block headers that are linked horizontally by small right-pointing arrows across the \"Lifecycle Stage\" row. The bottom two rows, \"Activities\" and \"Representative Actors\", contain detailed text descriptions in background-shaded rectangles corresponding to each column, with columns 3 and 4 combined into a single wide block under the \"Representative Actors\" row.\n4. Flow:\nThe figure outlines a linear sequence that flows from left to right through seven consecutive lifecycle stages. The sequence passes sequentially through \"Plan and Design\", \"Collect and Process Data\", \"Build and Use Model\", \"Verify and Validate\", \"Deploy and Use\", \"Operate and Monitor\", and concludes with \"Use or Impacted by\".",
+      "embed_text": "NIST AI 100-1 (AI RMF 1.0), figure on PDF page 16\n- People & Planet\n- Use or Impacted by\n- TEVV includes audit & impact assessment\n- Use system/technology; monitor & assess impacts; seek mitigation of impacts, advocate for rights.\n- End users, operators, and practitioners; impacted individuals/communities; general public; policy makers; standards organizations; trade associations; advocacy groups; environmental groups; civil society organizations; researchers.\n3. Layout:\nThe figure is organized as a grid matrix with five main rows labeled vertically along the left edge. The top section consists of seven color-coded vertical columns, each representing a distinct stage in the AI lifecycle. The top three rows (\"Key Dimensions\", \"Lifecycle Stage\", and \"TEVV\") form rounded, colored block headers that are linked horizontally by small right-pointing arrows across the \"Lifecycle Stage\" row. The bottom two rows, \"Activities\" and \"Representative Actors\", contain detailed text descriptions in background-shaded rectangles corresponding to each column, with columns 3 and 4 combined into a single wide block under the \"Representative Actors\" row.\n4. Flow:\nThe figure outlines a linear sequence that flows from left to right through seven consecutive lifecycle stages. The sequence passes sequentially through \"Plan and Design\", \"Collect and Process Data\", \"Build and Use Model\", \"Verify and Validate\", \"Deploy and Use\", \"Operate and Monitor\", and concludes with \"Use or Impacted by\".",
+      "words": 206,
+      "meta": {
+        "figure": "rmf_p16",
+        "model": "gemini-3.5-flash",
+        "used_fallback": false
+      },
+      "pdf_start": 16,
+      "pdf_end": 16,
+      "printed_start": "11",
+      "printed_end": "11"
+    },
+    {
+      "id": "fig:rmf_p17",
+      "doc": "rmf",
+      "title": "NIST AI 100-1 (AI RMF 1.0)",
+      "kind": "figure",
+      "section": "figure, PDF page 17",
+      "text": "Figure title:\nFig. 4. Characteristics of trustworthy AI systems. Valid & Reliable is a necessary condition of trustworthiness and is shown as the base for other trustworthiness characteristics. Accountable & Transparent is shown as a vertical box because it relates to all other characteristics.\nLabels:\n- Safe\n- Secure & Resilient\n- Explainable & Interpretable\n- Privacy-Enhanced\n- Fair - With Harmful Bias Managed\n- Valid & Reliable\n- Accountable & Transparent\nLayout:\nThe figure is structured using rounded rectangular blocks arranged in a foundational hierarchy. At the base on the left is a wide horizontal block labeled \"Valid & Reliable\". Directly above this base sits a horizontal row of five smaller adjacent blocks containing \"Safe\", \"Secure & Resilient\", \"Explainable & Interpretable\", \"Privacy-Enhanced\", and \"Fair - With Harmful Bias Managed\". To the right of these elements, a tall vertical block labeled \"Accountable & Transparent\" spans the combined height of the base and the upper row.\nFlow:\nFlow unclear.",
+      "embed_text": "NIST AI 100-1 (AI RMF 1.0), figure on PDF page 17\nFigure title:\nFig. 4. Characteristics of trustworthy AI systems. Valid & Reliable is a necessary condition of trustworthiness and is shown as the base for other trustworthiness characteristics. Accountable & Transparent is shown as a vertical box because it relates to all other characteristics.\nLabels:\n- Safe\n- Secure & Resilient\n- Explainable & Interpretable\n- Privacy-Enhanced\n- Fair - With Harmful Bias Managed\n- Valid & Reliable\n- Accountable & Transparent\nLayout:\nThe figure is structured using rounded rectangular blocks arranged in a foundational hierarchy. At the base on the left is a wide horizontal block labeled \"Valid & Reliable\". Directly above this base sits a horizontal row of five smaller adjacent blocks containing \"Safe\", \"Secure & Resilient\", \"Explainable & Interpretable\", \"Privacy-Enhanced\", and \"Fair - With Harmful Bias Managed\". To the right of these elements, a tall vertical block labeled \"Accountable & Transparent\" spans the combined height of the base and the upper row.\nFlow:\nFlow unclear.",
+      "words": 158,
+      "meta": {
+        "figure": "rmf_p17",
+        "model": "gemini-3.7-flash",
+        "used_fallback": true
+      },
+      "pdf_start": 17,
+      "pdf_end": 17,
+      "printed_start": "12",
+      "printed_end": "12"
+    },
+    {
+      "id": "fig:rmf_p25",
+      "doc": "rmf",
+      "title": "NIST AI 100-1 (AI RMF 1.0)",
+      "kind": "figure",
+      "section": "figure, PDF page 25",
+      "text": "1. Figure title: Fig. 5. Functions organize AI risk management activities at their highest level to govern, map, measure, and manage AI risks. Governance is designed to be a cross-cutting function to inform and be infused throughout the other three functions.\n2. Labels:\n- Map\n- Context is recognized and risks related to context are identified\n- Measure\n- Identified risks are assessed, analyzed, or tracked\n- Manage\n- Risks are prioritized and acted upon based on a projected impact\n- Govern\n- A culture of risk management is cultivated and present\n3. Layout:\nThe diagram is arranged around a prominent central circle containing the \"Govern\" function and its description, encased within concentric colorful rings. Three outer rounded-rectangular boxes are positioned around the center, connected to each other by a faint grey circular ring. Each outer box includes an icon at the top, a bold heading, and a short descriptive block of text. The \"Map\" function is located at the top-left in a green-bordered box, \"Measure\" is at the top-right in an orange/yellow-bordered box, and \"Manage\" is positioned at the bottom center in a blue-bordered box.\n4. Flow:\nflow unclear",
+      "embed_text": "NIST AI 100-1 (AI RMF 1.0), figure on PDF page 25\n1. Figure title: Fig. 5. Functions organize AI risk management activities at their highest level to govern, map, measure, and manage AI risks. Governance is designed to be a cross-cutting function to inform and be infused throughout the other three functions.\n2. Labels:\n- Map\n- Context is recognized and risks related to context are identified\n- Measure\n- Identified risks are assessed, analyzed, or tracked\n- Manage\n- Risks are prioritized and acted upon based on a projected impact\n- Govern\n- A culture of risk management is cultivated and present\n3. Layout:\nThe diagram is arranged around a prominent central circle containing the \"Govern\" function and its description, encased within concentric colorful rings. Three outer rounded-rectangular boxes are positioned around the center, connected to each other by a faint grey circular ring. Each outer box includes an icon at the top, a bold heading, and a short descriptive block of text. The \"Map\" function is located at the top-left in a green-bordered box, \"Measure\" is at the top-right in an orange/yellow-bordered box, and \"Manage\" is positioned at the bottom center in a blue-bordered box.\n4. Flow:\nflow unclear",
+      "words": 190,
+      "meta": {
+        "figure": "rmf_p25",
+        "model": "gemini-3.5-flash",
+        "used_fallback": false
+      },
+      "pdf_start": 25,
+      "pdf_end": 25,
+      "printed_start": "20",
+      "printed_end": "20"
+    },
+    {
+      "id": "fig:uk_p17",
+      "doc": "uk",
+      "title": "AI Playbook for the UK Government",
+      "kind": "figure",
+      "section": "figure, PDF page 17",
+      "text": "1. Figure title: none\n2. Labels:\n- Neural Networks\n- Speech Recognition\n- W2Vec\n- Whisper\n- CNN\n- Computer Vision\n- Generative AI\n- Diffusion Models\n- Neural Style Transfer\n- Large Language Models\n- Transformers\n- Attention Mechanisms\n- Machine Learning\n- Deep Learning\n- Foundation Models\n- Natural Language Processing\n- GRU\n- NLU\n- NLG\n- RNN\n- LSTM\n- Deep Reinforcement\n- Classifiers\n- Recommender Systems\n- Anomaly Detection\n- Pattern Recognition\n- Transparency\n- Ethical AI\n- Ethics and Societal Impact\n- Fairness\n- Privacy\n- Legal\n- Security\n3. Layout:\nThe figure is a complex network diagram displaying interconnected text nodes that represent various AI subfields, architectures, and ethical considerations. Major concept labels such as \"Machine Learning,\" \"Deep Learning,\" \"Generative AI,\" \"Foundation Models,\" \"Large Language Models,\" \"Natural Language Processing,\" and \"Ethics and Societal Impact\" are prominent in larger text sizes. Related technical models and sub-disciplines (e.g., CNN, W2Vec, Diffusion Models, Transformers, GRU, LSTM) radiate around these main topics, connected by multicolored solid and dashed lines. On the upper right, ethical, legal, and social factors (e.g., Transparency, Fairness, Privacy, Legal, Security) are grouped in blue text.\n4. Flow:\nflow unclear",
+      "embed_text": "AI Playbook for the UK Government, figure on PDF page 17\n1. Figure title: none\n2. Labels:\n- Neural Networks\n- Speech Recognition\n- W2Vec\n- Whisper\n- CNN\n- Computer Vision\n- Generative AI\n- Diffusion Models\n- Neural Style Transfer\n- Large Language Models\n- Transformers\n- Attention Mechanisms\n- Machine Learning\n- Deep Learning\n- Foundation Models\n- Natural Language Processing\n- GRU\n- NLU\n- NLG\n- RNN\n- LSTM\n- Deep Reinforcement\n- Classifiers\n- Recommender Systems\n- Anomaly Detection\n- Pattern Recognition\n- Transparency\n- Ethical AI\n- Ethics and Societal Impact\n- Fairness\n- Privacy\n- Legal\n- Security\n3. Layout:\nThe figure is a complex network diagram displaying interconnected text nodes that represent various AI subfields, architectures, and ethical considerations. Major concept labels such as \"Machine Learning,\" \"Deep Learning,\" \"Generative AI,\" \"Foundation Models,\" \"Large Language Models,\" \"Natural Language Processing,\" and \"Ethics and Societal Impact\" are prominent in larger text sizes. Related technical models and sub-disciplines (e.g., CNN, W2Vec, Diffusion Models, Transformers, GRU, LSTM) radiate around these main topics, connected by multicolored solid and dashed lines. On the upper right, ethical, legal, and social factors (e.g., Transparency, Fairness, Privacy, Legal, Security) are grouped in blue text.\n4. Flow:\nflow unclear",
+      "words": 196,
+      "meta": {
+        "figure": "uk_p17",
+        "model": "gemini-3.5-flash",
+        "used_fallback": false
+      },
+      "pdf_start": 17,
+      "pdf_end": 17,
+      "printed_start": "17",
+      "printed_end": "17"
+    }
+  ]
+}

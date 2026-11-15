@@ -1,0 +1,22 @@
+{
+  "key": "d2504b28308a23f16e8aacf5076de251a9d2a9c6b26ae5496a88b57c70919ab7",
+  "name": "csf_p8",
+  "purpose": "production",
+  "file": "NIST.CSWP.29.pdf",
+  "pdf_sha256": "3c31f46fee98cac0c4323453e5109291a213b4de7fef8c058af9bf67f717433c",
+  "pdf_page": 8,
+  "dpi": 300,
+  "rotate_cw": 0,
+  "crop": null,
+  "prompt": "This image is a page that contains a figure or diagram. Ignore page headers, footers, page numbers and ordinary body-text paragraphs.\n1. Figure title: copy the figure's own title or caption line if one is shown (for example a line starting 'Figure' or 'Fig.'); otherwise write 'none'.\n2. Labels: list every text label that is inside the figure itself, copied exactly as written. Do not include the figure title here.\n3. Layout: describe the layout and which labels are grouped together, in 3 to 6 sentences.\n4. Flow: if the figure shows a clear overall direction of flow or sequence, describe it in at most 3 sentences, naming the labels it passes through in order. Do not list individual arrows and do not describe arrowheads you cannot clearly see. If the direction is not clear, write 'flow unclear'.\nIf a label or any character is unreadable, write [unreadable] instead of guessing. For codes and numbers, copy them character by character and add (uncertain) after any that is not perfectly clear. Do not add labels that are not visible.",
+  "model": "gemini-3.5-flash",
+  "pinned_model": "gemini-3.5-flash",
+  "used_fallback": false,
+  "finish_reason": "STOP",
+  "created": "2026-10-19T08:10:20+00:00",
+  "image_px": [
+    2550,
+    3300
+  ],
+  "text": "**1. Figure title:**\nFig. 1. CSF Core structure\n\n**2. Labels:**\n* Cybersecurity Framework Core\n* Functions\n* Categories\n* Subcategories\n* Govern\n* Identify\n* Protect\n* Detect\n* Respond\n* Recover\n\n**3. Layout:**\n position at the top is a blue-bordered box labeled \"Cybersecurity Framework Core,\" which branches downward into three column headings: \"Functions,\" \"Categories,\" and \"Subcategories.\" Under \"Functions,\" six color-coded rectangular blocks are stacked vertically: \"Govern,\" \"Identify,\" \"Protect,\" \"Detect,\" \"Respond,\" and \"Recover.\" Lines extend from the \"Functions\" block to a central column of five stacked grey boxes under \"Categories.\" These grey boxes further expand via branching lines into a rightmost column containing ten stacked empty rectangular boxes under \"Subcategories.\"\n\n**4. Flow:**\nThe diagram shows a hierarchical decomposition flowing horizontally from left to right, moving from broad \"Functions\" to specific \"Categories,\" and finally branching into granular \"Subcategories.\""
+}

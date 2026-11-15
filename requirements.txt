@@ -1,0 +1,4 @@
+numpy
+google-genai
+groq
+gunicorn

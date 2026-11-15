@@ -1,0 +1,22 @@
+{
+  "key": "8af369def0fee679508eb44c50ece13f98f5bf73454a65f8fce110f14147f1f4",
+  "name": "csf_p10",
+  "purpose": "production",
+  "file": "NIST.CSWP.29.pdf",
+  "pdf_sha256": "3c31f46fee98cac0c4323453e5109291a213b4de7fef8c058af9bf67f717433c",
+  "pdf_page": 10,
+  "dpi": 300,
+  "rotate_cw": 0,
+  "crop": null,
+  "prompt": "This image is a page that contains a figure or diagram. Ignore page headers, footers, page numbers and ordinary body-text paragraphs.\n1. Figure title: copy the figure's own title or caption line if one is shown (for example a line starting 'Figure' or 'Fig.'); otherwise write 'none'.\n2. Labels: list every text label that is inside the figure itself, copied exactly as written. Do not include the figure title here.\n3. Layout: describe the layout and which labels are grouped together, in 3 to 6 sentences.\n4. Flow: if the figure shows a clear overall direction of flow or sequence, describe it in at most 3 sentences, naming the labels it passes through in order. Do not list individual arrows and do not describe arrowheads you cannot clearly see. If the direction is not clear, write 'flow unclear'.\nIf a label or any character is unreadable, write [unreadable] instead of guessing. For codes and numbers, copy them character by character and add (uncertain) after any that is not perfectly clear. Do not add labels that are not visible.",
+  "model": "gemini-3.5-flash",
+  "pinned_model": "gemini-3.5-flash",
+  "used_fallback": false,
+  "finish_reason": "STOP",
+  "created": "2026-10-19T08:10:33+00:00",
+  "image_px": [
+    2550,
+    3300
+  ],
+  "text": "1. **Figure title:** Fig. 2. CSF Functions\n\n2. **Labels:**\n- NIST Cybersecurity Framework\n- GOVERN\n- IDENTIFY\n- PROTECT\n- DETECT\n- RESPOND\n- RECOVER\n\n3. **Layout:**\nThe diagram is structured as a series of concentric circular rings. The innermost white circle contains the text \"NIST Cybersecurity Framework\". Encircling this center is a complete yellow ring labeled \"GOVERN\". The outer perimeter is divided into five distinct colored arc segments surrounding the yellow ring. These outer segments are labeled clockwise starting from the top right: \"IDENTIFY\" (blue), \"PROTECT\" (purple), \"DETECT\" (orange), \"RESPOND\" (red), and \"RECOVER\" (green).\n\n4. **Flow:**\nflow unclear"
+}

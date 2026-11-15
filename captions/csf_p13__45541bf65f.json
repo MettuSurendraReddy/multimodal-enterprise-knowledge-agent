@@ -1,0 +1,22 @@
+{
+  "key": "45541bf65f0a106b258e81a4ad53da843fe4d0f8413af319a0c72708679f2f2f",
+  "name": "csf_p13",
+  "purpose": "production",
+  "file": "NIST.CSWP.29.pdf",
+  "pdf_sha256": "3c31f46fee98cac0c4323453e5109291a213b4de7fef8c058af9bf67f717433c",
+  "pdf_page": 13,
+  "dpi": 300,
+  "rotate_cw": 0,
+  "crop": null,
+  "prompt": "This image is a page that contains a figure or diagram. Ignore page headers, footers, page numbers and ordinary body-text paragraphs.\n1. Figure title: copy the figure's own title or caption line if one is shown (for example a line starting 'Figure' or 'Fig.'); otherwise write 'none'.\n2. Labels: list every text label that is inside the figure itself, copied exactly as written. Do not include the figure title here.\n3. Layout: describe the layout and which labels are grouped together, in 3 to 6 sentences.\n4. Flow: if the figure shows a clear overall direction of flow or sequence, describe it in at most 3 sentences, naming the labels it passes through in order. Do not list individual arrows and do not describe arrowheads you cannot clearly see. If the direction is not clear, write 'flow unclear'.\nIf a label or any character is unreadable, write [unreadable] instead of guessing. For codes and numbers, copy them character by character and add (uncertain) after any that is not perfectly clear. Do not add labels that are not visible.",
+  "model": "gemini-3.5-flash",
+  "pinned_model": "gemini-3.5-flash",
+  "used_fallback": false,
+  "finish_reason": "STOP",
+  "created": "2026-10-19T08:25:21+00:00",
+  "image_px": [
+    2550,
+    3300
+  ],
+  "text": "**1. Figure title:**\nFig. 4. CSF Tiers for cybersecurity risk governance and management\n\n**2. Labels:**\n* Tier 1\n* Partial\n* Tier 2\n* Risk-Informed\n* Tier 3\n* Repeatable\n* Tier 4\n* Adaptive\n\n**3. Layout:**\n position block diagram consists of four adjacent vertical columns of increasing height, forming a stepped bar arrangement from left to right. Each block is shaded in a shade of blue and contains two lines of text centered near its top. The first column on the left contains \"Tier 1\" above \"Partial\". The second column, slightly taller, contains \"Tier 2\" above \"Risk-Informed\". The third taller column holds \"Tier 3\" above \"Repeatable\", and the fourth, tallest column on the far right contains \"Tier 4\" above \"Adaptive\".\n\n**4. Flow:**\nThe diagram shows a left-to-right ascending progression through four levels of risk management maturity. The sequence steps up from Tier 1 (Partial) to Tier 2 (Risk-Informed), continuing through Tier 3 (Repeatable), and reaching the highest level at Tier 4 (Adaptive)."
+}

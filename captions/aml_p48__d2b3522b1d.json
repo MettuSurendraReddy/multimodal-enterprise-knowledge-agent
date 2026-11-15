@@ -1,0 +1,22 @@
+{
+  "key": "d2b3522b1db8afcf868aeb28ed97098b0cb4addb99cb32f6dfcdfd8662e8dba0",
+  "name": "aml_p48",
+  "purpose": "production",
+  "file": "NIST.AI.100-2e2025.pdf",
+  "pdf_sha256": "4811fb6ad73f9c9121843ab77e029b5adc6f2c86d33c2fc5b2099ef133847646",
+  "pdf_page": 48,
+  "dpi": 300,
+  "rotate_cw": 0,
+  "crop": null,
+  "prompt": "This image is a page that contains a figure or diagram. Ignore page headers, footers, page numbers and ordinary body-text paragraphs.\n1. Figure title: copy the figure's own title or caption line if one is shown (for example a line starting 'Figure' or 'Fig.'); otherwise write 'none'.\n2. Labels: list every text label that is inside the figure itself, copied exactly as written. Do not include the figure title here.\n3. Layout: describe the layout and which labels are grouped together, in 3 to 6 sentences.\n4. Flow: if the figure shows a clear overall direction of flow or sequence, describe it in at most 3 sentences, naming the labels it passes through in order. Do not list individual arrows and do not describe arrowheads you cannot clearly see. If the direction is not clear, write 'flow unclear'.\nIf a label or any character is unreadable, write [unreadable] instead of guessing. For codes and numbers, copy them character by character and add (uncertain) after any that is not perfectly clear. Do not add labels that are not visible.",
+  "model": "gemini-3.8-flash",
+  "pinned_model": "gemini-3.5-flash",
+  "used_fallback": true,
+  "finish_reason": "STOP",
+  "created": "2026-10-16T11:46:59+00:00",
+  "image_px": [
+    2550,
+    3300
+  ],
+  "text": "**Figure title:**\nFigure 2. Taxonomy of attacks on GenAI systems\n\n**Labels:**\n- Availability\n- Integrity\n- Misuse\n- Privacy\n- Model\n- Data\n- Query Access\n- Resource Control\n- Training Data Control\n- Model Control\n- Direct Prompting Attack\n- Increased Computation\n- Indirect Prompt Injection\n- Data Poisoning\n- Targeted Poisoning\n- Backdoor Poisoning\n- Model Poisoning\n- Jailbreaking\n- Fine-tuning Circumvention\n- Prompt Extraction\n- Model Extraction\n- Training Data Extraction\n- Leaking Data from User Interaction\n\n**Layout:**\nThe figure is arranged into four circular diagrams representing primary security objectives or categories: \"Availability\" at the top, \"Integrity\" at the middle-left, \"Misuse\" at the middle-right, and \"Privacy\" at the bottom. Each central circle displays its target objective in a colored hub, surrounded by segmented grey rings representing access or control types such as \"Query Access\", \"Resource Control\", \"Training Data Control\", and \"Model Control\". Extending outwards via solid connecting lines are specific attack vectors and sub-techniques associated with each control type. The bottom \"Privacy\" diagram is subdivided internally into \"Model\" and \"Data\" aspects, each with their own corresponding control quadrants and associated attack methods.\n\n**Flow:**\nflow unclear"
+}

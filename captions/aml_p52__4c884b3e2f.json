@@ -1,0 +1,22 @@
+{
+  "key": "4c884b3e2fc190ed23177b751a706029afdc9a6c7f61e879705fe6fc535bd766",
+  "name": "aml_p52",
+  "purpose": "production",
+  "file": "NIST.AI.100-2e2025.pdf",
+  "pdf_sha256": "4811fb6ad73f9c9121843ab77e029b5adc6f2c86d33c2fc5b2099ef133847646",
+  "pdf_page": 52,
+  "dpi": 300,
+  "rotate_cw": 0,
+  "crop": null,
+  "prompt": "This image is a page that contains a figure or diagram. Ignore page headers, footers, page numbers and ordinary body-text paragraphs.\n1. Figure title: copy the figure's own title or caption line if one is shown (for example a line starting 'Figure' or 'Fig.'); otherwise write 'none'.\n2. Labels: list every text label that is inside the figure itself, copied exactly as written. Do not include the figure title here.\n3. Layout: describe the layout and which labels are grouped together, in 3 to 6 sentences.\n4. Flow: if the figure shows a clear overall direction of flow or sequence, describe it in at most 3 sentences, naming the labels it passes through in order. Do not list individual arrows and do not describe arrowheads you cannot clearly see. If the direction is not clear, write 'flow unclear'.\nIf a label or any character is unreadable, write [unreadable] instead of guessing. For codes and numbers, copy them character by character and add (uncertain) after any that is not perfectly clear. Do not add labels that are not visible.",
+  "model": "gemini-3.7-flash",
+  "pinned_model": "gemini-3.5-flash",
+  "used_fallback": true,
+  "finish_reason": "STOP",
+  "created": "2026-10-16T19:54:28+00:00",
+  "image_px": [
+    2550,
+    3300
+  ],
+  "text": "**Figure title:**\nFigure 6. Retrieval-augmented generation\n\n**Labels:**\n- Context\n- System\n- You are a helpful financial assistant. Be concise.\n- User\n- What was the net income of ACME in 2020 Q1?\n- Assistant\n- $2.5B, down from $3.6B in 2019 Q1.\n- User\n- What was their operating cash flow?\n- Resources (e.g. vector db)\n- Assistant\n- doc1: ACME announces Q1 results... doc2: Financial results ending Mar 31, 2020...\n- Assistant\n- Input\n- LLM\n\n**Layout:**\nThe diagram shows a stacked series of prompt and retrieval components being fed into a language model. On the upper left, a vertical bracket labeled \"Context\" groups four alternating conversation turns labeled \"System\", \"User\", \"Assistant\", and \"User\", each with its corresponding prompt or response text. Below the context section, a cylinder-like icon labeled \"Resources (e.g. vector db)\" links to an \"Assistant\" block containing retrieved document snippets (\"doc1...\", \"doc2...\"), followed by another \"Assistant\" block. A large right-side bracket labeled \"Input\" spans both the context turns and retrieved documents, leading into an oval labeled \"LLM\" on the far right.\n\n**Flow:**\nThe conversation history within \"Context\" and the retrieved content originating from \"Resources (e.g. vector db)\" combine under \"Input\", which flows directly into the \"LLM\"."
+}

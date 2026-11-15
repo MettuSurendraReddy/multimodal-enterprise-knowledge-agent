@@ -1,0 +1,22 @@
+{
+  "key": "2eac3c6b96230458fbafb1f5e8a348a0c304045ae593c8311f0166c1243cefa9",
+  "name": "rmf_p25",
+  "purpose": "production",
+  "file": "NIST.AI.100-1.pdf",
+  "pdf_sha256": "7576edb531d9848825814ee88e28b1795d3a84b435b4b797d3670eafdc4a89f1",
+  "pdf_page": 25,
+  "dpi": 300,
+  "rotate_cw": 0,
+  "crop": null,
+  "prompt": "This image is a page that contains a figure or diagram. Ignore page headers, footers, page numbers and ordinary body-text paragraphs.\n1. Figure title: copy the figure's own title or caption line if one is shown (for example a line starting 'Figure' or 'Fig.'); otherwise write 'none'.\n2. Labels: list every text label that is inside the figure itself, copied exactly as written. Do not include the figure title here.\n3. Layout: describe the layout and which labels are grouped together, in 3 to 6 sentences.\n4. Flow: if the figure shows a clear overall direction of flow or sequence, describe it in at most 3 sentences, naming the labels it passes through in order. Do not list individual arrows and do not describe arrowheads you cannot clearly see. If the direction is not clear, write 'flow unclear'.\nIf a label or any character is unreadable, write [unreadable] instead of guessing. For codes and numbers, copy them character by character and add (uncertain) after any that is not perfectly clear. Do not add labels that are not visible.",
+  "model": "gemini-3.5-flash",
+  "pinned_model": "gemini-3.5-flash",
+  "used_fallback": false,
+  "finish_reason": "STOP",
+  "created": "2026-10-16T11:37:10+00:00",
+  "image_px": [
+    2550,
+    3300
+  ],
+  "text": "1. **Figure title:** Fig. 5. Functions organize AI risk management activities at their highest level to govern, map, measure, and manage AI risks. Governance is designed to be a cross-cutting function to inform and be infused throughout the other three functions.\n\n2. **Labels:**\n* Map\n* Context is recognized and risks related to context are identified\n* Measure\n* Identified risks are assessed, analyzed, or tracked\n* Manage\n* Risks are prioritized and acted upon based on a projected impact\n* Govern\n* A culture of risk management is cultivated and present\n\n3. **Layout:**\nThe diagram is arranged around a prominent central circle containing the \"Govern\" function and its description, encased within concentric colorful rings. Three outer rounded-rectangular boxes are positioned around the center, connected to each other by a faint grey circular ring. Each outer box includes an icon at the top, a bold heading, and a short descriptive block of text. The \"Map\" function is located at the top-left in a green-bordered box, \"Measure\" is at the top-right in an orange/yellow-bordered box, and \"Manage\" is positioned at the bottom center in a blue-bordered box.\n\n4. **Flow:**\nflow unclear"
+}
